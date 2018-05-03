@@ -1,0 +1,136 @@
+# Panzer I
+equipments = {
+
+    # Panzer I Archetype
+	armor_panzer_i_equipment = {
+		year = 1933
+
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_armor_panzer_i_equipment
+		type = armor
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+		
+		#Misc Abilities
+		maximum_speed = 5
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 6
+		breakthrough = 36
+		hardness = 0.95
+		armor_value = 70
+
+		#Offensive Abilities
+		soft_attack = 15
+		hard_attack = 12
+		ap_attack = 35
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 14
+		
+		build_cost_ic = 25 
+		resources = {
+			oil = 1
+			steel = 1
+			chromium = 0
+		}
+		
+	}
+
+	# Panzer I Ausf. A
+	armor_panzer_i_equipment_a = {
+		year = 1933
+
+		archetype = armor_panzer_i_equipment
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+        upgrades = {
+		}
+	}
+
+    # Panzer I Ausf. B
+	armor_panzer_i_equipment_b = {
+		year = 1936
+
+		archetype = armor_panzer_i_equipment
+		parent = armor_panzer_i_equipment_a
+		priority = 90
+		visual_level = 1
+		is_convertable = yes
+
+        upgrades = {
+		}
+	}
+
+	# Panzer I Ausf. C
+    armor_panzer_i_equipment_c = {
+		year = 1939
+
+		archetype = armor_panzer_i_equipment
+		parent = armor_panzer_i_equipment_b
+		priority = 90
+		visual_level = 2
+		is_convertable = yes
+
+        upgrades = {
+		}
+	}
+
+	# sIG 33 Bison
+    armor_panzer_i_equipment_bison = {
+		year = 1939
+
+		archetype = armor_panzer_i_equipment
+		parent = armor_panzer_i_equipment_c
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	# Panzerjäger I
+    armor_panzer_i_equipment_jager = {
+		year = 1940
+
+		archetype = armor_panzer_i_equipment
+		parent = armor_panzer_i_equipment_c
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	# Flakpanzer I
+	armor_panzer_i_equipment_flak = {
+		year = 1941
+
+		archetype = armor_panzer_i_equipment
+		parent = armor_panzer_i_equipment_c
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+	}
+
+	# Panzer I Ausf. F
+    armor_panzer_i_equipment_f = {
+		year = 1942
+
+		archetype = armor_panzer_i_equipment
+		parent = armor_panzer_i_equipment_c
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+	}
+}
