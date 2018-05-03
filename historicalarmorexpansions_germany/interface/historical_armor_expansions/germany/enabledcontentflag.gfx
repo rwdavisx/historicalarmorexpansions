@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_german_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/germany/flags/german-flag-enabled.dds"
+	}
+}

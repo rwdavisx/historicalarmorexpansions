@@ -1,0 +1,46 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_german_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/german-flag-disabled.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ussr_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/ussr-flag-disabled.dds"
+	}
+
+    spriteType = {
+		name = "GFX_italy_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/italy-flag-disabled.dds"
+	}
+
+    spriteType = {
+		name = "GFX_england_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/england-flag-disabled.dds"
+	}
+
+    spriteType = {
+		name = "GFX_usa_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/usa-flag-disabled.dds"
+	}
+
+    spriteType = {
+		name = "GFX_japan_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/japan-flag-disabled.dds"
+	}
+
+    spriteType = {
+		name = "GFX_france_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/france-flag-disabled.dds"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_hae_enabled_content_view_header"
+		size= { x=190 y=190 }
+		textureFile = "gfx//interface//tiles//tiled_plain_bg.dds"
+		borderSize = { x=32 y=32 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+}
