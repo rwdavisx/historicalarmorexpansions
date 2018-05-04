@@ -1,0 +1,27 @@
+technologies = {
+
+    german_neubaufahrzeug = {
+        
+        enable_equipments = {
+            neubaufahrzeug_equipment_stock
+        }
+
+        research_cost = 1
+        
+        start_year = 1933
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -12 y = 6 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_heavy_armor
+        }
+    }
+}

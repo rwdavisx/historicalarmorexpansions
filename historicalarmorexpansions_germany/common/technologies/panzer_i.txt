@@ -1,0 +1,207 @@
+technologies = {
+
+    german_panzer_i_a = {
+        
+        enable_equipments = {
+            panzer_i_equipment_a
+        }
+
+        research_cost = 1
+
+        start_year = 1934
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -15 y = 1 }
+        }
+
+        path = {
+            leads_to_tech = german_panzer_i_b
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = german_panzer_i_flak
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
+    german_panzer_i_b = {
+        
+        enable_equipments = {
+            panzer_i_equipment_b
+        }
+
+        research_cost = 1
+
+        start_year = 1936
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -10 y = 1 }
+        }
+
+        path = {
+            leads_to_tech = german_panzer_i_c
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = german_panzer_i_jager
+            research_cost_coeff = 1
+        }
+
+        path = {
+            leads_to_tech = german_panzer_i_bison
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
+    german_panzer_i_c = {
+        
+        enable_equipments = {
+            panzer_i_equipment_c
+        }
+
+        research_cost = 1
+
+        start_year = 1939
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -5 y = 1 }
+        }
+
+        path = {
+            leads_to_tech = german_panzer_i_f
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
+    german_panzer_i_bison = {
+        
+        enable_equipments = {
+            panzer_i_equipment_bison
+        }
+
+        research_cost = 1
+
+        start_year = 1939
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -5 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
+    german_panzer_i_jager = {
+        
+        enable_equipments = {
+            panzer_i_equipment_jager
+        }
+
+        research_cost = 1
+
+        start_year = 1940
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
+    german_panzer_i_flak = {
+        enable_equipments = {
+            panzer_i_equipment_flak
+        }
+
+        research_cost = 1
+
+        start_year = 1941
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 5 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
+    german_panzer_i_f = {
+        
+        enable_equipments = {
+            panzer_i_equipment_f
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 5 y = 1 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
+}

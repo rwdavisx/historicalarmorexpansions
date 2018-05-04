@@ -2,13 +2,13 @@
 equipments = {
 
     # Panzer I Archetype
-	armor_panzer_i_equipment = {
+	panzer_i_equipment = {
 		year = 1933
 
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_armor_panzer_i_equipment
+		picture = archetype_panzer_i_equipment
 		type = armor
 		group_by = archetype
 		
@@ -50,10 +50,10 @@ equipments = {
 	}
 
 	# Panzer I Ausf. A
-	armor_panzer_i_equipment_a = {
+	panzer_i_equipment_a = {
 		year = 1933
 
-		archetype = armor_panzer_i_equipment
+		archetype = panzer_i_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -63,11 +63,11 @@ equipments = {
 	}
 
     # Panzer I Ausf. B
-	armor_panzer_i_equipment_b = {
+	panzer_i_equipment_b = {
 		year = 1936
 
-		archetype = armor_panzer_i_equipment
-		parent = armor_panzer_i_equipment_a
+		archetype = panzer_i_equipment
+		parent = panzer_i_equipment_a
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
@@ -77,11 +77,11 @@ equipments = {
 	}
 
 	# Panzer I Ausf. C
-    armor_panzer_i_equipment_c = {
+    panzer_i_equipment_c = {
 		year = 1939
 
-		archetype = armor_panzer_i_equipment
-		parent = armor_panzer_i_equipment_b
+		archetype = panzer_i_equipment
+		parent = panzer_i_equipment_b
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
@@ -91,44 +91,44 @@ equipments = {
 	}
 
 	# sIG 33 Bison
-    armor_panzer_i_equipment_bison = {
+    panzer_i_equipment_bison = {
 		year = 1939
 
-		archetype = armor_panzer_i_equipment
-		parent = armor_panzer_i_equipment_c
+		archetype = panzer_i_equipment
+		parent = panzer_i_equipment_c
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
 	# Panzerjäger I
-    armor_panzer_i_equipment_jager = {
+    panzer_i_equipment_jager = {
 		year = 1940
 
-		archetype = armor_panzer_i_equipment
-		parent = armor_panzer_i_equipment_c
+		archetype = panzer_i_equipment
+		parent = panzer_i_equipment_c
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
 	# Flakpanzer I
-	armor_panzer_i_equipment_flak = {
+	panzer_i_equipment_flak = {
 		year = 1941
 
-		archetype = armor_panzer_i_equipment
-		parent = armor_panzer_i_equipment_c
+		archetype = panzer_i_equipment
+		parent = panzer_i_equipment_c
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
 	# Panzer I Ausf. F
-    armor_panzer_i_equipment_f = {
+    panzer_i_equipment_f = {
 		year = 1942
 
-		archetype = armor_panzer_i_equipment
-		parent = armor_panzer_i_equipment_c
+		archetype = panzer_i_equipment
+		parent = panzer_i_equipment_c
 		priority = 90
 		visual_level = 0
 		is_convertable = yes

@@ -1,12 +1,12 @@
 equipments = {
 
-	armor_panzer_ii_equipment = {
+	panzer_ii_equipment = {
 
 		year = 1936
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_armor_panzer_ii_equipment
+		picture = archetype_panzer_ii_equipment
 		type = armor
 		group_by = archetype
 		
@@ -46,109 +46,109 @@ equipments = {
 		}
 	}
 
-	armor_panzer_ii_equipment_aa = {
+	panzer_ii_equipment_aa = {
 		year = 1936
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_bb = {
+	panzer_ii_equipment_bb = {
 		year = 1937
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_cc = {
+	panzer_ii_equipment_cc = {
 		year = 1937
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_a = {
+	panzer_ii_equipment_a = {
 		year = 1937
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_b = {
+	panzer_ii_equipment_b = {
 		year = 1937
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_c = {
+	panzer_ii_equipment_c = {
 		year = 1938
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_d = {
+	panzer_ii_equipment_d = {
 		year = 1938
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_flamm = {
+	panzer_ii_equipment_flamm = {
 		year = 1940
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_f = {
+	panzer_ii_equipment_f = {
 		year = 1941
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_marder_ii = {
+	panzer_ii_equipment_marder_ii = {
 		year = 1942
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_wespe = {
+	panzer_ii_equipment_wespe = {
 		year = 1943
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
 
-	armor_panzer_ii_equipment_luchs = {
+	panzer_ii_equipment_luchs = {
 		year = 1943
 
-		archetype = armor_panzer_ii_equipment
+		archetype = panzer_ii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes

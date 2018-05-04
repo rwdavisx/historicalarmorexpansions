@@ -1,22 +1,15 @@
 equipments = {
-    armor_panzer_iii_equipment = {
+    panzer_iii_equipment = {
 
 		year = 1941
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_armor_panzer_iii_equipment
+		picture = archetype_panzer_iii_equipment
 		type = armor
 		group_by = archetype
 		
 		interface_category = interface_category_armor
-		
-		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
-		}
 		
 		#Misc Abilities
 		maximum_speed = 5
@@ -45,82 +38,82 @@ equipments = {
 		}
 	}
 
-    armor_panzer_iii_equipment_d = {
+    panzer_iii_equipment_d = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_e = {
+    panzer_iii_equipment_e = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_f = {
+    panzer_iii_equipment_f = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_g = {
+    panzer_iii_equipment_g = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_h = {
+    panzer_iii_equipment_h = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_j = {
+    panzer_iii_equipment_j = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_l = {
+    panzer_iii_equipment_l = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_m = {
+    panzer_iii_equipment_m = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_n = {
+    panzer_iii_equipment_n = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
 	}
-    armor_panzer_iii_equipment_flamm = {
+    panzer_iii_equipment_flamm = {
 		year = 1941
 
-		archetype = armor_panzer_iii_equipment
+		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
