@@ -817,8 +817,8 @@ guiTypes = {
 				origo = upper_left
 			
 				instantTextBoxType = {
-					name = "german_armor_panzer_i"
-					position = { x = 0 y = 260 }
+					name = "german_panzer_i"
+					position = { x = 0 y = 60 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 4}
@@ -829,7 +829,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "german_armor_panzer_ii"
+					name = "german_panzer_ii"
 					position = { x = 0 y = 760 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -841,7 +841,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "german_armor_panzer_iii"
+					name = "german_panzer_iii"
 					position = { x = 20 y = 1460 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -853,7 +853,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "german_armor_panzer_iv"
+					name = "german_panzer_iv"
 					position = { x = 20 y = 2160 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -865,7 +865,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "german_armor_panzer_v"
+					name = "german_panzer_v"
 					position = { x = 20 y = 2860 }
 					textureFile = ""
 					font = "hoi_36header"
@@ -879,9 +879,9 @@ guiTypes = {
 			}	
 			#Panzer I
 			containerWindowType = {
-				name = "GER_armor_panzer_i_row"
-				position = { x=40 y=300 }
-				size = { width = 2400 height = 450 }
+				name = "GER_panzer_i_row"
+				position = { x=40 y=100 }
+				size = { width = 2400 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12}
 				#horizontalScrollbar = "bottom_horizontal_slider"
 
@@ -968,7 +968,7 @@ guiTypes = {
 			}
 			#Panzer II
 			containerWindowType = {
-				name = "GER_armor_panzer_ii_row"
+				name = "GER_panzer_ii_row"
 				position = { x=40 y=800 }
 				size = { width = 2400 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12 }
@@ -1080,7 +1080,7 @@ guiTypes = {
 			}
 			#Panzer III
 			containerWindowType = {
-				name = "GER_armor_panzer_iii_row"
+				name = "GER_panzer_iii_row"
 				position = { x=40 y=1500 }
 				size = { width = 2400 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12 }
@@ -1193,7 +1193,7 @@ guiTypes = {
 			}
 			#Panzer IV
 			containerWindowType = {
-				name = "GER_armor_panzer_iv_row"
+				name = "GER_panzer_iv_row"
 				position = { x=40 y=2200 }
 				size = { width = 2400 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12 }
@@ -1306,7 +1306,7 @@ guiTypes = {
 			}
 			#Panzer V
 			containerWindowType = {
-				name = "GER_armor_panzer_v_row"
+				name = "GER_panzer_v_row"
 				position = { x=40 y=2900 }
 				size = { width = 2400 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12 }
@@ -1418,15 +1418,15 @@ guiTypes = {
 				
 			}
 			gridboxtype = {
-				name = "ger_armor_panzer_i_a_tree"
-				position = { x = 280 y = 320 }
+				name = "german_panzer_i_a_tree"
+				position = { x = 280 y = 190 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 
 			gridboxtype = {
-				name = "ger_armor_panzer_ii_aa_tree"
+				name = "german_panzer_ii_aa_tree"
 				position = { x = 280 y = 890 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
@@ -1434,7 +1434,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "ger_armor_panzer_iii_d_tree"
+				name = "german_panzer_iii_d_tree"
 				position = { x = 280 y = 1590 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
@@ -5650,6 +5650,7 @@ guiTypes = {
 			maxHeight = 20
 			format = right
 		}
+		
 		containerWindowType = {
 			name = "sub_technology_slot_0"
 			position = { x=141 y=1 }
