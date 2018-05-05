@@ -897,7 +897,7 @@ guiTypes = {
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
-						text = "1933"
+						text = "1934"
 						maxWidth = 80
 						maxHeight = 32
 						format = left
@@ -905,7 +905,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year2"
-						position = { x = 455 y = 10 }
+						position = { x = 385 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -917,7 +917,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year3"
-						position = { x = 805 y = 10 }
+						position = { x = 665 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -929,7 +929,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year4"
-						position = { x = 1155 y = 10 }
+						position = { x = 945 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -942,6 +942,18 @@ guiTypes = {
 					instantTextBoxType = {
 						name = "armour_year5"
 						position = { x = 1505 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1941"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+										instantTextBoxType = {
+						name = "armour_year6"
+						position = { x = 1785 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}

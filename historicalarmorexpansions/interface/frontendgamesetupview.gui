@@ -1757,7 +1757,8 @@ guiTypes = {
 			position = { x=0 y=95 }
 			size = { width = 800 height = 220 }
 			margin = { top = 12 left = 12 bottom = 12 right = 12}
-			
+			moveable = yes
+
 			background = {
 				name = "Background"		
 				quadTextureSprite ="GFX_tiled_window"
@@ -1773,6 +1774,7 @@ guiTypes = {
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_hae_enabled_content_view_header"
+					alwaystransparent = yes
 				}
 
 				instantTextBoxType = {
@@ -1787,6 +1789,7 @@ guiTypes = {
 					vertical_alignment = center				
 					Orientation = CENTER
 					format = centre
+					alwaystransparent = yes
 				}
 			}
 
