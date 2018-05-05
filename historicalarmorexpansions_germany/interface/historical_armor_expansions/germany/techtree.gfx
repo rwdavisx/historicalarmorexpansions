@@ -1,0 +1,32 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_german_armor_folder_tab"
+		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ger_panzer_i_art_bg"
+		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-i-art.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ger_panzer_ii_art_bg"
+		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-ii-art.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ger_panzer_iii_art_bg"
+		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-iii-art.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ger_panzer_iv_art_bg"
+		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-iv-art.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ger_panzer_v_art_bg"
+		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-v-art.dds"
+	}
+}
