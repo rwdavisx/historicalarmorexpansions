@@ -11,7 +11,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -15 y = 0 }
+            position = { x = -15 y = 2 }
         }
 
         path = {
@@ -40,7 +40,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -10 y = 0 }
+            position = { x = -11 y = 2 }
         }
 
         path = {
@@ -69,7 +69,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -10 y = 2 }
+            position = { x = -11 y = 0 }
         }
 
         path = {
@@ -98,7 +98,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -5 y = 0 }
+            position = { x = -7 y = 0 }
         }
 
         path = {
@@ -127,7 +127,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -5 y = 2 }
+            position = { x = -7 y = 2 }
         }
 
         path = {
@@ -161,7 +161,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 0 y = 0 }
+            position = { x = 0 y = 2 }
         }
 
         path = {
@@ -190,7 +190,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 0 y = 2 }
+            position = { x = 0 y = 0 }
         }
 
         path = {
@@ -224,7 +224,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 0 }
+            position = { x = 9 y = 0 }
         }
 
         path = {
@@ -263,7 +263,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 2 }
+            position = { x = 9 y = 2 }
         }
 
         ai_will_do = {
@@ -287,8 +287,12 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 10 y = 4 }
+            position = { x = 13 y = 0 }
         }
+
+        can_convert_from = {
+			panzer_iii_equipment_m
+		}
 
         ai_will_do = {
             factor = 1
@@ -316,13 +320,17 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -5 y = 4 }
+            position = { x = -7 y = 4 }
         }
 
         path = {
             leads_to_tech = german_stug_iii_d
             research_cost_coeff = 1
         }
+
+        can_convert_from = {
+			panzer_iii_equipment_h
+		}
 
         ai_will_do = {
             factor = 1
@@ -403,7 +411,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 4 }
+            position = { x = 5 y = 6 }
         }
 
         path = {
@@ -428,22 +436,16 @@ technologies = {
 
         research_cost = 1
 
-        start_year = 1941
+        start_year = 1942
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 6 }
+            position = { x = 5 y = 4 }
         }
 
-        path = {
-            leads_to_tech = german_stug_iii_f8
-            research_cost_coeff = 1
-        }
-
-        path = {
-            leads_to_tech = german_stug_iii_g
-            research_cost_coeff = 1
-        }
+        can_convert_from = {
+			panzer_iii_equipment_l
+		}
 
         ai_will_do = {
             factor = 1
@@ -466,8 +468,12 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 15 y = 6 }
+            position = { x = 17 y = 2 }
         }
+
+        can_convert_from = {
+			panzer_iii_equipment_m
+		}
 
         ai_will_do = {
             factor = 1

@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_GER_german_neubaufahrzeug_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_heavy_tank.dds"
+	}
+}

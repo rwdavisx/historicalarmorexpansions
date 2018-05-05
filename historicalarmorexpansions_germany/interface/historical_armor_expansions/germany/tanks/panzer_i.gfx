@@ -1,0 +1,37 @@
+SpriteTypes = {
+    
+	SpriteType = {
+		name = "GFX_GER_german_panzer_i_a_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds" #ger_basic_light_tank.dds
+	}
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_i_b_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_i_c_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_i_bison_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_i_jager_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_i_flak_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_i_f_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_light_tank.dds"
+	}
+}

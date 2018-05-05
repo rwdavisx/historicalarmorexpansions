@@ -59,6 +59,7 @@ equipments = {
 		year = 1937
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_aa
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -68,6 +69,7 @@ equipments = {
 		year = 1937
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_bb
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -77,6 +79,7 @@ equipments = {
 		year = 1937
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_cc
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -86,6 +89,7 @@ equipments = {
 		year = 1937
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_a
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -95,6 +99,7 @@ equipments = {
 		year = 1938
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_b
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -104,6 +109,7 @@ equipments = {
 		year = 1938
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_c
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -116,12 +122,17 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		can_convert_from = {
+			panzer_ii_equipment_d
+		}
 	}
 
 	panzer_ii_equipment_f = {
 		year = 1941
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_d
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -134,6 +145,10 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		can_convert_from = {
+			panzer_ii_equipment_f
+		}
 	}
 
 	panzer_ii_equipment_wespe = {
@@ -143,6 +158,10 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		can_convert_from = {
+			panzer_ii_equipment_f
+		}
 	}
 
 	panzer_ii_equipment_luchs = {
@@ -152,5 +171,9 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		can_convert_from = {
+			panzer_ii_equipment_f
+		}
 	}
 }

@@ -6,13 +6,13 @@ technologies = {
             panzer_i_equipment_a
         }
 
-        research_cost = 1
+        research_cost = 0.5
 
         start_year = 1934
 
         folder = {
             name = german_armor_folder
-            position = { x = -15 y = 1 }
+            position = { x = -15 y = 3 }
         }
 
         path = {
@@ -41,13 +41,13 @@ technologies = {
             panzer_i_equipment_b
         }
 
-        research_cost = 1
+        research_cost = 0.25
 
         start_year = 1936
 
         folder = {
             name = german_armor_folder
-            position = { x = -10 y = 1 }
+            position = { x = -11 y = 3 }
         }
 
         path = {
@@ -87,7 +87,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -5 y = 1 }
+            position = { x = -7 y = 3 }
         }
 
         path = {
@@ -113,11 +113,11 @@ technologies = {
 
         research_cost = 1
 
-        start_year = 1939
+        start_year = 1940
 
         folder = {
             name = german_armor_folder
-            position = { x = -5 y = 4 }
+            position = { x = -3 y = 6 }
         }
 
         ai_will_do = {
@@ -142,7 +142,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 0 y = 4 }
+            position = { x = 1 y = 6 }
         }
 
         ai_will_do = {
@@ -166,7 +166,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 4 }
+            position = { x = 5 y = 0 }
         }
 
         ai_will_do = {
@@ -191,7 +191,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 1 }
+            position = { x = 9 y = 3 }
         }
 
         ai_will_do = {
