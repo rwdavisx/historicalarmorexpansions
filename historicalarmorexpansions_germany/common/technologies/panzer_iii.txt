@@ -11,7 +11,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -15 y = 0 }
+            position = { x = -15 y = 6 }
         }
 
         path = {
@@ -40,7 +40,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -11 y = 0 }
+            position = { x = -11 y = 6 }
         }
 
         path = {
@@ -69,7 +69,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -7 y = 0 }
+            position = { x = -7 y = 6 }
         }
 
         path = {
@@ -98,7 +98,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -3 y = 0 }
+            position = { x = -3 y = 6 }
         }
 
         path = {
@@ -127,7 +127,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 1 y = 0 }
+            position = { x = 1 y = 6 }
         }
 
         path = {
@@ -160,7 +160,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 0 }
+            position = { x = 5 y = 6 }
         }
 
         path = {
@@ -189,7 +189,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 9 y = 0 }
+            position = { x = 9 y = 6 }
         }
 
         path = {
@@ -222,7 +222,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 13 y = 0 }
+            position = { x = 13 y = 6 }
         }
 
         path = {
@@ -256,7 +256,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 17 y = 0 }
+            position = { x = 17 y = 6 }
         }
 
         ai_will_do = {

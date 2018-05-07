@@ -11,7 +11,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -15 y = 4 }
+            position = { x = 1 y = 4 }
         }
 
         path = {
@@ -40,7 +40,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x =-11 y = 4 }
+            position = { x =5 y = 4 }
         }
 
         path = {
@@ -69,12 +69,16 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -7 y = 4 }
+            position = { x = 9 y = 4 }
         }
 
         path = {
             leads_to_tech = german_stug_iii_f
             research_cost_coeff = 1
+        }
+
+        sub_technologies = {
+            german_stug_iii_33b
         }
 
         ai_will_do = {
@@ -98,7 +102,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -3 y = 4 }
+            position = { x = 13 y = 4 }
         }
 
         path = {
@@ -127,12 +131,36 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 1 y = 4 }
+            position = { x = 17 y = 4 }
         }
 
         path = {
             leads_to_tech = german_stug_iii_g
             research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_stug_iii_33b = {
+
+        enable_equipments = {
+            stug_iii_equipment_33b
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 17 y = 2 }
         }
 
         ai_will_do = {
@@ -156,7 +184,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 4 }
+            position = { x = 21 y = 4 }
         }
 
         ai_will_do = {

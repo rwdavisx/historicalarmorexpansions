@@ -1429,6 +1429,7 @@ guiTypes = {
 				}
 				
 			}
+			
 			gridboxtype = {
 				name = "german_panzer_i_a_tree"
 				position = { x = 280 y = 190 }
@@ -1512,6 +1513,14 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "german_panzer_iii_flamm_tree"
+				position = { x = 280 y = 1590 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "german_stug_iii_33b_tree"
 				position = { x = 280 y = 1590 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }

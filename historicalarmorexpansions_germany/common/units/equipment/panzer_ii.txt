@@ -168,12 +168,9 @@ equipments = {
 		year = 1943
 
 		archetype = panzer_ii_equipment
+		parent = panzer_ii_equipment_f
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
-
-		can_convert_from = {
-			panzer_ii_equipment_f
-		}
 	}
 }

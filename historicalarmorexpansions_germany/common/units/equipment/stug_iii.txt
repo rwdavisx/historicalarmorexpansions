@@ -85,6 +85,18 @@ equipments = {
 			panzer_iii_equipment_l
 		}
 	}
+	stug_iii_equipment_33b = {
+		year = 1942
+
+		archetype = stug_iii_equipment
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+        can_convert_from = {
+			panzer_iii_equipment_e
+		}
+	}
     stug_iii_equipment_g = {
 		year = 1943
 
