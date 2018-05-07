@@ -6,8 +6,8 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_ussr_flag_expansion"
-		texturefile = "gfx/interface/historical_armor_expansions/core/flags/ussr-flag-disabled.dds"
+		name = "GFX_soviet_flag_expansion"
+		texturefile = "gfx/interface/historical_armor_expansions/core/flags/soviet-flag-disabled.dds"
 	}
 
     spriteType = {

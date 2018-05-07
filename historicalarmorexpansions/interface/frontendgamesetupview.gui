@@ -1824,15 +1824,15 @@ guiTypes = {
 					format = left
 				}
 
-				### USSR
+				### Soviet
 				iconType ={
-					name ="ussr_flag_expansion"
-					spriteType = "GFX_ussr_flag_expansion"
+					name ="soviet_flag_expansion"
+					spriteType = "GFX_soviet_flag_expansion"
 					position = { x= 180 y = 10 }
 					Orientation = "UPPER_LEFT"
 				}
 				instantTextBoxType = {
-					name = "ussr_flag_expansion_label"
+					name = "soviet_flag_expansion_label"
 					position = { x = 165 y = -52 }
 					font = "vic_22"
 					text = "Soviet Union"

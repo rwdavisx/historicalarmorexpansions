@@ -86,24 +86,38 @@ technology_folders = {
 	infantry_folder
 	support_folder
 
-	# Generic Tanks
+	# Generic Armor
 	armour_folder = {
 		available = {
 			NOT = {
 				AND = {
 					original_tag = GER
 					has_global_flag = german_content_pack			
-				}						 
+				}
+				AND = {
+					original_tag = SOV
+					has_global_flag = soviet_content_pack			
+				}					 
 			}
 		}
 	}
 
-	# German Tanks
+	# German Armor
 	german_armor_folder = {
 		available = {
 			AND = {
 				original_tag = GER
 				has_global_flag = german_content_pack 			
+			}
+		}
+	}
+
+	# Soviet Armor
+	soviet_armor_folder = {
+		available = {
+			AND = {
+				original_tag = SOV
+				has_global_flag = soviet_content_pack 			
 			}
 		}
 	}

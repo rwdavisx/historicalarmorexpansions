@@ -1,5 +1,5 @@
-﻿name="Historical Armor Expansions: German Content Pack"
-path="mod/historicalarmorexpansions_germany/"
+﻿name="Historical Armor Expansions: Soviet Content Pack"
+path="mod/historicalarmorexpansions_soviet/"
 tags={
 	"Historical"
 	"Technologies"
