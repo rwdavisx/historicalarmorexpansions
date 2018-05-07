@@ -14,33 +14,26 @@ equipments = {
 		
 		interface_category = interface_category_armor
 		
-		# upgrades = {
-		# 	tank_reliability_upgrade
-		# 	tank_engine_upgrade
-		# 	tank_armor_upgrade
-		# 	tank_gun_upgrade
-		# }
-		
 		#Misc Abilities
-		maximum_speed = 5
-		reliability = 0.8
+		maximum_speed = 12
+		reliability = 0.7
 
 		#Defensive Abilities
-		defense = 6
-		breakthrough = 36
-		hardness = 0.95
-		armor_value = 70
+		defense = 3
+		breakthrough = 22
+		hardness = 0.8
+		armor_value = 8
 
 		#Offensive Abilities
-		soft_attack = 15
-		hard_attack = 12
-		ap_attack = 35
+		soft_attack = 11
+		hard_attack = 3
+		ap_attack = 8
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 14
+		lend_lease_cost = 10
 		
-		build_cost_ic = 25 
+		build_cost_ic = 8
 		resources = {
 			oil = 1
 			steel = 1
@@ -68,6 +61,21 @@ equipments = {
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12
+		reliability = 0.7
+
+		#Defensive Abilities
+		defense = 3
+		breakthrough = 24
+		hardness = 0.8
+		armor_value = 10
+
+		#Offensive Abilities
+		soft_attack = 12
+		hard_attack = 13
+		ap_attack = 10
 	}
 
 	# Panzer I Ausf. C
@@ -79,6 +87,21 @@ equipments = {
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 26
+		hardness = 0.8
+		armor_value = 14
+
+		#Offensive Abilities
+		soft_attack = 13
+		hard_attack = 5
+		ap_attack = 15
 	}
 
 	# sIG 33 Bison
@@ -89,9 +112,35 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
-
+		type = { 
+			armor
+			artillery
+		}
 		can_convert_from = {
+			panzer_i_equipment_a
 			panzer_i_equipment_b
+			panzer_i_equipment_c
+		}
+
+				#Misc Abilities
+		maximum_speed = 12
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 26
+		hardness = 0.5
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 34
+		hard_attack = 0.5
+		ap_attack = 4
+
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 0
 		}
 	}
 
@@ -103,9 +152,37 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		type = { 
+			armor
+			anti_tank
+		}
 
 		can_convert_from = {
+			panzer_i_equipment_a
 			panzer_i_equipment_b
+			panzer_i_equipment_c
+		}
+
+		#Misc Abilities
+		maximum_speed = 12
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 1
+		hardness = 0.8
+		armor_value = 10
+
+		#Offensive Abilities
+		soft_attack = 6
+		hard_attack = 10
+		ap_attack = 50
+		air_attack = 0
+
+		resources = {
+			oil = 1
+			steel = 2
+			tungsten = 2
 		}
 	}
 
@@ -118,8 +195,38 @@ equipments = {
 		visual_level = 0
 		is_convertable = yes
 
+		type = { 
+			armor
+			anti_air
+		}
+
 		can_convert_from = {
 			panzer_i_equipment_a
+			panzer_i_equipment_b
+			panzer_i_equipment_c
+		}
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 2
+		breakthrough = 2
+		hardness = 0.5
+		armor_value = 5
+
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 1
+		ap_attack = 5
+		air_attack = 15
+
+		#Space taken in convoy
+		lend_lease_cost = 10
+		
+		resources = {
+			oil = 1
+			steel = 2
 		}
 	}
 
@@ -132,5 +239,27 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12
+		reliability = 0.9
+
+		#Defensive Abilities
+		defense = 7
+		breakthrough = 32
+		hardness = 0.8
+		armor_value = 20
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 20
+		
+		build_cost_ic = 8
+		resources = {
+			oil = 1
+			steel = 1
+			chromium = 1
+		}
 	}
 }
