@@ -56,7 +56,7 @@ SpriteTypes = {
 	}
 
 	SpriteType = {
-		name = "GFX_GER_german_panzer_ii_luchs_medium"
+		name = "GFX_GER_german_panzer_ii_l_medium"
 		texturefile = "gfx/interface/technologies/ger_imp_light_tank.dds"
 	}
 }

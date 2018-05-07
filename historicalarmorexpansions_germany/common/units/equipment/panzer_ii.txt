@@ -164,7 +164,7 @@ equipments = {
 		}
 	}
 
-	panzer_ii_equipment_luchs = {
+	panzer_ii_equipment_l = {
 		year = 1943
 
 		archetype = panzer_ii_equipment

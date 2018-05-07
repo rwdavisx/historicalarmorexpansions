@@ -72,7 +72,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -11 y = 3 }
+            position = { x = -7 y = 0 }
         }
 
         path = {
@@ -102,7 +102,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -7 y = 3 }
+            position = { x = -3 y = 0 }
         }
 
         path = {
@@ -132,7 +132,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -7 y = 0 }
+            position = { x = 1 y = 0 }
         }
 
         path = {
@@ -162,7 +162,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -3 y = 0 }
+            position = { x = 5 y = 0 }
         }
 
         path = {
@@ -192,12 +192,11 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -3 y = 3 }
+            position = { x = 9 y = 0 }
         }
 
-        path = {
-            leads_to_tech = german_panzer_ii_flamm
-            research_cost_coeff = 1
+        sub_technologies = {
+            german_panzer_ii_flamm
         }
 
         path = {
@@ -227,7 +226,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 1 y = 6 }
+            position = { x = 1 y = 2 }
         }
 
         ai_will_do = {
@@ -252,22 +251,18 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 3 }
+            position = { x = 13 y = 0 }
         }
 
         path = {
-            leads_to_tech = german_panzer_ii_marder_ii
+            leads_to_tech = german_panzer_ii_l
             research_cost_coeff = 1
         }
 
-        path = {
-            leads_to_tech = german_panzer_ii_wespe
-            research_cost_coeff = 1
-        }
+        sub_technologies = {
+            german_panzer_ii_marder_ii
+            german_panzer_ii_wespe
 
-        path = {
-            leads_to_tech = german_panzer_ii_luchs
-            research_cost_coeff = 1
         }
 
         ai_will_do = {
@@ -292,7 +287,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 9 y = 0 }
+            position = { x = 9 y = 2 }
         }
 
         ai_will_do = {
@@ -317,7 +312,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 13 y = 6 }
+            position = { x = 13 y = 2 }
         }
 
         ai_will_do = {
@@ -330,10 +325,10 @@ technologies = {
         }
     }
 
-    german_panzer_ii_luchs = {
+    german_panzer_ii_l = {
 
         enable_equipments = {
-            panzer_ii_equipment_luchs
+            panzer_ii_equipment_l
         }
 
         research_cost = 1
@@ -342,7 +337,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 17 y = 6 }
+            position = { x = 17 y = 0 }
         }
 
         ai_will_do = {

@@ -12,7 +12,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -15 y = 3 }
+            position = { x = -15 y = 0 }
         }
 
         path = {
@@ -20,9 +20,8 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        path = {
-            leads_to_tech = german_panzer_i_flak
-            research_cost_coeff = 1
+        sub_technologies = {
+            german_panzer_i_flak
         }
 
         ai_will_do = {
@@ -47,7 +46,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -11 y = 3 }
+            position = { x = -11 y = 0 }
         }
 
         path = {
@@ -55,14 +54,9 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        path = {
-            leads_to_tech = german_panzer_i_jager
-            research_cost_coeff = 1
-        }
-
-        path = {
-            leads_to_tech = german_panzer_i_bison
-            research_cost_coeff = 1
+        sub_technologies = {
+            german_panzer_i_bison
+            german_panzer_i_jager  
         }
 
         ai_will_do = {
@@ -87,7 +81,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -7 y = 3 }
+            position = { x = -7 y = 0 }
         }
 
         path = {
@@ -117,7 +111,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = -3 y = 6 }
+            position = { x = -3 y = 2 }
         }
 
         ai_will_do = {
@@ -142,7 +136,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 1 y = 6 }
+            position = { x = 1 y = 2 }
         }
 
         ai_will_do = {
@@ -166,7 +160,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 5 y = 0 }
+            position = { x = 5 y = 2 }
         }
 
         ai_will_do = {
@@ -191,7 +185,7 @@ technologies = {
 
         folder = {
             name = german_armor_folder
-            position = { x = 9 y = 3 }
+            position = { x = 9 y = 0 }
         }
 
         ai_will_do = {

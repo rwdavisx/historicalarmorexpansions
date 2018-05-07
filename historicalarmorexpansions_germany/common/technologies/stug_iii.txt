@@ -1,0 +1,171 @@
+technologies = {
+    german_stug_iii_b = {
+
+        enable_equipments = {
+            stug_iii_equipment_b
+        }
+
+        research_cost = 1
+
+        start_year = 1940
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -15 y = 4 }
+        }
+
+        path = {
+            leads_to_tech = german_stug_iii_d
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_stug_iii_d = {
+
+        enable_equipments = {
+            stug_iii_equipment_d
+        }
+
+        research_cost = 1
+
+        start_year = 1941
+
+        folder = {
+            name = german_armor_folder
+            position = { x =-11 y = 4 }
+        }
+
+        path = {
+            leads_to_tech = german_stug_iii_e
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_stug_iii_e = {
+
+        enable_equipments = {
+            stug_iii_equipment_e
+        }
+
+        research_cost = 1
+
+        start_year = 1941
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -7 y = 4 }
+        }
+
+        path = {
+            leads_to_tech = german_stug_iii_f
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_stug_iii_f = {
+
+        enable_equipments = {
+            stug_iii_equipment_f
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = -3 y = 4 }
+        }
+
+        path = {
+            leads_to_tech = german_stug_iii_f8
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_stug_iii_f8 = {
+
+        enable_equipments = {
+            stug_iii_equipment_f8
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 1 y = 4 }
+        }
+
+        path = {
+            leads_to_tech = german_stug_iii_g
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_stug_iii_g = {
+
+        enable_equipments = {
+            stug_iii_equipment_g
+        }
+
+        research_cost = 1
+
+        start_year = 1943
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 5 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+}
