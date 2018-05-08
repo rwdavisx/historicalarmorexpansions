@@ -1,0 +1,65 @@
+﻿l_english:
+ panzer_ii:0 "Panzerkampfwagen II"
+ panzer_ii_equipment:0 "Panzerkampfwagen II"
+ panzer_ii_equipment_short:0 "Panzer II"
+ panzer_ii_equipment_desc:0 "Panzer II Tank Materials"
+
+ GER_panzer_ii_equipment_aa:0 "Panzerkampfwagen II Ausf. a/3"
+ GER_panzer_ii_equipment_aa_short:0 "Panzer II a"
+ GER_panzer_ii_equipment_aa_desc:0 "The Panzer II's armour could protect its crew from small arms fire and 7.92 mm S.M.K steel-cored armour-piercing machine gun bullets fired from a range of 30 m. It was designed to engage enemy machine gun nests and destroy them to enable the infantry to continue to advance, not to engage in tank on tank combat."
+ panzer_ii_equipment_aa:0 "Panzer II Ausf. a/3"
+
+ GER_panzer_ii_equipment_bb:0 "Panzerkampfwagen II Ausf. b"
+ GER_panzer_ii_equipment_bb_short:0 "Panzer II b"
+ GER_panzer_ii_equipment_bb_desc:0 "Early versions of the Panzer II changed shape over time as they were upgraded during their operational life. Additional armour was added and features like cupolas were fitted."
+ panzer_ii_equipment_bb:0 "Panzer II Ausf. b"
+
+ GER_panzer_ii_equipment_cc:0 "Panzerkampfwagen II Ausf. c"
+ GER_panzer_ii_equipment_cc_short:0 "Panzer II c"
+ GER_panzer_ii_equipment_cc_desc:0 "This version of the Panzer II removed the bullet ricochet ‘splash’ plate and the dummy cone shaped periscope in front of the commander’s hatch. The additional armour added to the front hull glacis plates changed the look from a curved frontal armoured hull to an angular shape."
+ panzer_ii_equipment_cc:0 "Panzer II Ausf. c"
+
+ GER_panzer_ii_equipment_a:0 "Panzerkampfwagen II Ausf. A"
+ GER_panzer_ii_equipment_a_short:0 "Panzer II A"
+ GER_panzer_ii_equipment_a_desc:0 "The Panzer II Ausf.A was the final standardised version ready for mass production. Only minor internal changes were made. A new gear box was fitted. The fuel pump, oil filter and cooler were relocated on the engine. The tank’s electrical system was supressed to try and stop it interfering with the AM radio reception and transmission."
+ panzer_ii_equipment_a:0 "Panzer II Ausf. A"
+
+ GER_panzer_ii_equipment_b:0 "Panzerkampfwagen II Ausf. B"
+ GER_panzer_ii_equipment_b_short:0 "Panzer II B"
+ GER_panzer_ii_equipment_b_desc:0 "Panzer II tanks were built with a few minor alterations like vertical bullet deflectors welded to the sides of the superstructure in front of the vision ports. 50 mm thick bullet proof glass were bolted behind the vison slit. During the production run strengthening reinforcing rods were added to the hull and angle irons were welded inside the engine compartment."
+ panzer_ii_equipment_b:0 "Panzer II Ausf. B"
+
+ GER_panzer_ii_equipment_c:0 "Panzerkampfwagen II Ausf. C"
+ GER_panzer_ii_equipment_c_short:0 "Panzer II C"
+ GER_panzer_ii_equipment_c_desc:0 "The Ausf.C was ordered to keep the factories busy until the Panzer III tank was ready for mass production. The only visible difference is a new type of improved vision port. It had two conical beaded bolts of the face plate and two large bolts above and below it to keep the 50 mm bullet proof glass in place."
+ panzer_ii_equipment_c:0 "Panzer II Ausf. C"
+
+ GER_panzer_ii_equipment_d:0 "Panzerkampfwagen II Ausf. D"
+ GER_panzer_ii_equipment_d_short:0 "Panzer II D"
+ GER_panzer_ii_equipment_d_desc:0 "A new Maybach HL 62 TRM engine and a new Maybach Variorex VG 102128 7-speed gearbox enabled this heavier Panzer II Ausf.D tank to reach top speeds of 55 km/h. One of the major differences was that the radio operator now has his own armoured forward vision port and hatch at the front of the tank. The front hull armour was now 30 mm thick and of an angular rather than a curved design."
+ panzer_ii_equipment_d:0 "Panzer II Ausf. D"
+
+ GER_panzer_ii_equipment_flamm:0 "Flamm-Panzer II"
+ GER_panzer_ii_equipment_flamm_short:0 "Flamingo"
+ GER_panzer_ii_equipment_flamm_desc:0 "The Flamm used a new turret mounting a single MG34 machine gun, and two remotely controlled flamethrowers mounted in small turrets at each front corner of the vehicle. Each flamethrower could cover the front 180° arc, while the turret traversed 360°."
+ panzer_ii_equipment_flamm:0 "Flamm-Panzer II"
+
+ GER_panzer_ii_equipment_f:0 "Panzerkampfwagen II Ausf. F"
+ GER_panzer_ii_equipment_f_short:0 "Panzer II F"
+ GER_panzer_ii_equipment_f_desc:0 "The Panzer II Ausf.F was built with the thicker 30 mm armour on the front of the tank hull and 30 mm armour of the front of the turret. A fake armoured visor, made from aluminium alloy, was bolted onto the front of the hull to the right of the driver’s vision port. This was done to distract enemy fire away from the driver."
+ panzer_ii_equipment_f:0 "Panzer II Ausf. F"
+
+ GER_panzer_ii_equipment_marder_ii:0 "PaK 40 auf Fahrgestell Panzerkampfwagen II"
+ GER_panzer_ii_equipment_marder_ii_short:0 "Marder II"
+ GER_panzer_ii_equipment_marder_ii_desc:0 "The Marder II mounted the German 7.5 cm Pak 40 gun. Its high profile and thin open-topped armor provided minimal protection to the crew. Nevertheless, the Marder II provided a great increase in firepower over contemporary German tanks during 1942 and into 1943."
+ panzer_ii_equipment_marder_ii:0 "Marder II"
+
+ GER_panzer_ii_equipment_wespe:0 "Leichte Feldhaubitze 18/2 auf Fahrgestell Panzerkampfwagen II"
+ GER_panzer_ii_equipment_wespe_short:0 "Wespe"
+ GER_panzer_ii_equipment_wespe_desc:0 "The Wespe was a frontline self-propelled howitzer motor carriage that served with various Panzerartillerie Abteilungen on the Eastern front and North Africa, alongside heavier SPGs like the Hummel and Bison."
+ panzer_ii_equipment_wespe:0 "Wespe"
+
+ GER_panzer_ii_equipment_l:0 "Panzerkampfwagen II Ausf. L"
+ GER_panzer_ii_equipment_l_short:0 "Luchs"
+ GER_panzer_ii_equipment_l_desc:0 "A light reconnaissance tank, the Ausf. L, was the only Panzer II design with the Schachtellaufwerk overlapping/interleaved road wheels and "slack track" configuration to enter series production. It was equipped with a six speed transmission, and could reach a speed of 60 km/h with a range of 290 km."
+ panzer_ii_equipment_l:0 "Panzer II Ausf. L"
