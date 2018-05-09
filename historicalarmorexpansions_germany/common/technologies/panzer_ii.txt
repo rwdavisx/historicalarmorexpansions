@@ -275,6 +275,31 @@ technologies = {
         }
     }
 
+    german_panzer_ii_l = {
+
+        enable_equipments = {
+            panzer_ii_equipment_l
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 21 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_light_armor
+        }
+    }
+
     german_panzer_ii_marder_ii = {
 
         enable_equipments = {
@@ -313,31 +338,6 @@ technologies = {
         folder = {
             name = german_armor_folder
             position = { x = 25 y = 2 }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-
-        categories = {
-            armor
-            cat_light_armor
-        }
-    }
-
-    german_panzer_ii_l = {
-
-        enable_equipments = {
-            panzer_ii_equipment_l
-        }
-
-        research_cost = 1
-
-        start_year = 1943
-
-        folder = {
-            name = german_armor_folder
-            position = { x = 25 y = 4 }
         }
 
         ai_will_do = {
