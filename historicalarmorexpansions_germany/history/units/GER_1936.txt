@@ -605,10 +605,20 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = panzer_i_equipment_b
+			type = panzer_i_equipment_a
 			creator = "GER" 
 		}
-		requested_factories = 2
+		requested_factories = 1
+		progress = 0.4
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = panzer_ii_equipment_aa
+			creator = "GER" 
+		}
+		requested_factories = 1
 		progress = 0.4
 		efficiency = 50
 	}
