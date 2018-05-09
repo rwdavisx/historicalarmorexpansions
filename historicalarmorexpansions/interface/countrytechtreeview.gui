@@ -881,7 +881,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "GER_panzer_i_row"
 				position = { x=40 y=100 }
-				size = { width = 2400 height = 650 }
+				size = { width = 1700 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12}
 				#horizontalScrollbar = "bottom_horizontal_slider"
 
@@ -982,7 +982,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "GER_panzer_ii_row"
 				position = { x=40 y=800 }
-				size = { width = 2400 height = 650 }
+				size = { width = 3100 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12 }
 
 				containerWindowType = {
@@ -1017,7 +1017,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year3"
-						position = { x = 945 y = 10 }
+						position = { x = 1505 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1029,7 +1029,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year4"
-						position = { x = 1225 y = 10 }
+						position = { x = 2065 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1041,7 +1041,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year5"
-						position = { x = 1505 y = 10 }
+						position = { x = 2345 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1051,9 +1051,9 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
-										instantTextBoxType = {
+					instantTextBoxType = {
 						name = "armour_year6"
-						position = { x = 1785 y = 10 }
+						position = { x = 2625 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1063,9 +1063,9 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
-										instantTextBoxType = {
+					instantTextBoxType = {
 						name = "armour_year7"
-						position = { x = 2065 y = 10 }
+						position = { x = 2905 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -1094,7 +1094,7 @@ guiTypes = {
 			containerWindowType = {
 				name = "GER_panzer_iii_row"
 				position = { x=40 y=1500 }
-				size = { width = 2400 height = 650 }
+				size = { width = 2825 height = 650 }
 				margin = { top = 12 left = 12 bottom = 12 right = 12 }
 
 				containerWindowType = {
