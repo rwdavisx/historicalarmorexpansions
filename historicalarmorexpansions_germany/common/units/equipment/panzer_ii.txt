@@ -3,45 +3,25 @@ equipments = {
 	panzer_ii_equipment = {
 
 		year = 1936
+
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_panzer_ii_equipment
+		picture = archetype_light_tank_equipment
 		type = armor
-		group_by = archetype
-		
+		group_by = archetype	
 		interface_category = interface_category_armor
-		
-		upgrades = {
-			tank_reliability_upgrade
-			tank_engine_upgrade
-			tank_armor_upgrade
-			tank_gun_upgrade
-		}
-		
-		#Misc Abilities
-		maximum_speed = 5
-		reliability = 0.8
-
-		#Defensive Abilities
-		defense = 6
+	
+		defense = 5
 		breakthrough = 36
-		hardness = 0.95
-		armor_value = 70
-
-		#Offensive Abilities
-		soft_attack = 15
-		hard_attack = 12
-		ap_attack = 35
+		hardness = 0.8
 		air_attack = 0
 
-		#Space taken in convoy
-		lend_lease_cost = 14
-		
-		build_cost_ic = 25 
+		lend_lease_cost = 10
+		build_cost_ic = 9
 		resources = {
 			oil = 1
-			steel = 1
+			steel = 3
 			chromium = 0
 		}
 	}
@@ -53,6 +33,18 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.04
+		reliability = 0.72
+
+		#Defensive Abilities
+		armor_value = 13.5
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
 	}
 
 	panzer_ii_equipment_bb = {
@@ -63,6 +55,18 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.28
+		reliability = 0.76
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
 	}
 
 	panzer_ii_equipment_cc = {
@@ -73,6 +77,18 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.76
+		reliability = 0.84
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 30
 	}
 
 	panzer_ii_equipment_a = {
@@ -83,6 +99,18 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12.24
+		reliability = 0.84
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 30
 	}
 
 	panzer_ii_equipment_b = {
@@ -93,6 +121,18 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12.48
+		reliability = 0.96
+
+		#Defensive Abilities
+		armor_value = 15
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 30
 	}
 
 	panzer_ii_equipment_c = {
@@ -103,6 +143,18 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12.48
+		reliability = 1.04
+
+		#Defensive Abilities
+		armor_value = 15
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 30
 	}
 
 	panzer_ii_equipment_d = {
@@ -113,6 +165,18 @@ equipments = {
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 12.96
+		reliability = 1.04
+
+		#Defensive Abilities
+		armor_value = 16.5
+
+		#Offensive Abilities
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 30
 	}
 
 	panzer_ii_equipment_flamm = {
