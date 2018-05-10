@@ -1,0 +1,347 @@
+technologies = {
+    german_panzer_iv_a = {
+        enable_equipments = {
+            panzer_iv_equipment_a
+        }
+
+        research_cost = 1
+
+        start_year = 1936
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_b = {
+        enable_equipments = {
+            panzer_iv_equipment_b
+        }
+
+        research_cost = 1
+
+        start_year = 1937
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_c = {
+        enable_equipments = {
+            panzer_iv_equipment_c
+        }
+
+        research_cost = 1
+
+        start_year = 1938
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_d = {
+        enable_equipments = {
+            panzer_iv_equipment_d
+        }
+
+        research_cost = 1
+
+        start_year = 1939
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_e = {
+        enable_equipments = {
+            panzer_iv_equipment_e
+        }
+
+        research_cost = 1
+
+        start_year = 1940
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_f = {
+        enable_equipments = {
+            panzer_iv_equipment_f
+        }
+
+        research_cost = 1
+
+        start_year = 1941
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_g = {
+        enable_equipments = {
+            panzer_iv_equipment_g
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_h = {
+        enable_equipments = {
+            panzer_iv_equipment_h
+        }
+
+        research_cost = 1
+
+        start_year = 1943
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_j = {
+        enable_equipments = {
+            panzer_iv_equipment_j
+        }
+
+        research_cost = 1
+
+        start_year = 1944
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_hummel = {
+        enable_equipments = {
+            panzer_iv_equipment_hummel
+        }
+
+        research_cost = 1
+
+        start_year = 1943
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_jagd = {
+        enable_equipments = {
+            panzer_iv_equipment_jagd
+        }
+
+        research_cost = 1
+
+        start_year = 1943
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_sturmpanzer = {
+        enable_equipments = {
+            panzer_iv_equipment_sturmpanzer
+        }
+
+        research_cost = 1
+
+        start_year = 1943
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_sturmgeschutz = {
+        enable_equipments = {
+            panzer_iv_equipment_sturmpanzer
+        }
+
+        research_cost = 1
+
+        start_year = 1943
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_brumm = {
+        enable_equipments = {
+            panzer_iv_equipment_brumm
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_nash = {
+        enable_equipments = {
+            panzer_iv_equipment_nash
+        }
+
+        research_cost = 1
+
+        start_year = 1942
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+}

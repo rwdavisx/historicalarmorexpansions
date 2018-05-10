@@ -1,0 +1,94 @@
+technologies = {
+    german_flak_iv_mobel = {
+        enable_equipments = {
+            flak_iv_equipment_mobel
+        }
+
+        research_cost = 1
+
+        start_year = 1944
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_flak_iv_wirbel = {
+        enable_equipments = {
+            flak_iv_equipment_wirbel
+        }
+
+        research_cost = 1
+
+        start_year = 1944
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_flak_iv_ost = {
+        enable_equipments = {
+            flak_iv_equipment_ost
+        }
+
+        research_cost = 1
+
+        start_year = 1944
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_flak_iv_kugel = {
+        enable_equipments = {
+            flak_iv_equipment_kugel
+        }
+
+        research_cost = 1
+
+        start_year = 1945
+
+        folder = {
+            name = german_armor_folder
+            position = { x = 0 y = 0 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+}
