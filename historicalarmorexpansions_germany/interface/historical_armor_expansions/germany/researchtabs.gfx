@@ -1,0 +1,27 @@
+spriteTypes = {
+    spriteType = { 
+        name = "GFX_german_panzer_i_folder_tab"							
+        textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_i_tab.dds" 
+        noOfFrames = 2 
+    }
+    spriteType = { 
+        name = "GFX_german_panzer_ii_folder_tab"							
+        textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_ii_tab.dds" 
+        noOfFrames = 2 
+    }
+    spriteType = { 
+        name = "GFX_german_panzer_iii_folder_tab"							
+        textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_iii_tab.dds" 
+        noOfFrames = 2 
+    }
+    spriteType = { 
+        name = "GFX_german_panzer_iv_folder_tab"							
+        textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_iv_tab.dds" 
+        noOfFrames = 2 
+    }
+    spriteType = { 
+        name = "GFX_german_panzer_v_folder_tab"							
+        textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_v_tab.dds" 
+        noOfFrames = 2 
+    }
+}

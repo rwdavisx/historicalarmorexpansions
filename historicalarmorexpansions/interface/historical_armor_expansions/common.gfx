@@ -1,0 +1,11 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_tank_helper_icon_up"
+		texturefile = "gfx/interface/historical_armor_expansions/core/tank-helper-icon-up.dds"
+	}
+	spriteType = {
+		name = "GFX_tank_helper_icon_down"
+		texturefile = "gfx/interface/historical_armor_expansions/core/tank-helper-icon-down.dds"
+	}
+}

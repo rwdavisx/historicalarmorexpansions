@@ -33,9 +33,21 @@ guiTypes = {
 			quadTextureSprite ="GFX_tiled_plain_bg2"
 		}
 
+		iconType = {
+			name = "armor_icon_down"
+			position = { x = 12 y = 47 }
+			spriteType = "GFX_tank_helper_icon_down"
+		}
+
+		iconType = {
+			name = "armor_icon_up"
+			position = { x = 12 y = 635 }
+			spriteType = "GFX_tank_helper_icon_up"
+		}
+
 		containerWindowType = {
 			name = "infantry_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -307,7 +319,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "support_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -515,6 +527,7 @@ guiTypes = {
 
 		}
 
+		#Generic Tree
 		containerWindowType = {
 			name = "armour_folder"
 			position = { x=0 y=47 }
@@ -793,10 +806,10 @@ guiTypes = {
 			}
 		}
 
-		#German Armor Tech Container
+		#German Panzer I Folder
 		containerWindowType = {
-			name = "german_armor_folder"
-			position = { x=0 y=47 }
+			name = "german_panzer_i_folder"
+			position = { x=110 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -807,93 +820,28 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
-		
-			# Titles
+
+			#Header
 			containerWindowType = {
-				name = "armour_subtitles"
-				position = { x = 0 y = 0 }
-				size = { width = 1920 height = 1080 }				
-				orientation = upper_left
-				origo = upper_left
-			
-				instantTextBoxType = {
-					name = "german_panzer_i"
-					position = { x = 0 y = 60 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "Panzerkampfwagen I"
-					maxWidth = 400
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "german_panzer_ii"
-					position = { x = 0 y = 760 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 10 y = 4}
-					text = "Panzerkampfwagen II"
-					maxWidth = 400
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "german_panzer_iii"
-					position = { x = 20 y = 1460 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "Panzerkampfwagen III"
-					maxWidth = 400
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "german_panzer_iv"
-					position = { x = 20 y = 2160 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "Panzerkampfwagen IV"
-					maxWidth = 400
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-				instantTextBoxType = {
-					name = "german_panzer_v"
-					position = { x = 20 y = 2860 }
-					textureFile = ""
-					font = "hoi_36header"
-					borderSize = {x = 0 y = 4}
-					text = "Panzerkampfwagen V"
-					maxWidth = 400
-					maxHeight = 62
-					format = center
-					Orientation = "UPPER_LEFT"
-				}
-			}	
-			#Panzer I
-			containerWindowType = {
-				name = "GER_panzer_i_row"
-				position = { x=40 y=100 }
-				size = { width = 1700 height = 650 }
-				margin = { top = 12 left = 12 bottom = 12 right = 12}
-				#horizontalScrollbar = "bottom_horizontal_slider"
+				name = "GER_panzer_i_title"
+				position = { x=0 y=0 }
+				size = { width = 0 height = 0 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
 
 				containerWindowType = {
 					name = "armour_year_top"
-					position = { x=0 y=0 }
-					size = { width = 0 height = 0 }
+					position = { x=20 y=-10 }
+					size = { width = 1700 height = 68 }
 					orientation = upper_left
-				
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_plain_bg"
+					}
+
 					instantTextBoxType = {
 						name = "armour_year1"
-						position = { x = 105 y = 10 }
+						position = { x = 138 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -905,7 +853,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year2"
-						position = { x = 385 y = 10 }
+						position = { x = 418 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -917,7 +865,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year3"
-						position = { x = 665 y = 10 }
+						position = { x = 698 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -929,7 +877,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year4"
-						position = { x = 945 y = 10 }
+						position = { x = 978 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -941,7 +889,7 @@ guiTypes = {
 					}
 					instantTextBoxType = {
 						name = "armour_year5"
-						position = { x = 1225 y = 10 }
+						position = { x = 1258 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -951,9 +899,9 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
-										instantTextBoxType = {
+					instantTextBoxType = {
 						name = "armour_year6"
-						position = { x = 1505 y = 10 }
+						position = { x = 1538 y = 10 }
 						textureFile = ""
 						font = "hoi_36header"
 						borderSize = {x = 0 y = 4}
@@ -964,478 +912,37 @@ guiTypes = {
 						Orientation = "UPPER_LEFT"
 					}
 				}
+			}
+
+			#Content
+			containerWindowType = {
+				name = "GER_panzer_i_row"
+				position = { x=0 y=0 }
+				size = { width = 1700 height = 650 }
+				margin = { top = 0 left = 0 bottom = -48 right = 0}
 
 				iconType = {
 					name ="ger_panzer_i_art_bg"
 					spriteType = "GFX_ger_panzer_i_art_bg"
-					position = { x=0 y=0 }
+					position = { x=32 y=72 }
 					allwaystransparent = yes
+					scale = 1.25
 				}
 
 				background = {
 					name = "Background"
 					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=0 }					
+					position = { x=20 y=60 }
+									
 				}
 			}
-			#Panzer II
-			containerWindowType = {
-				name = "GER_panzer_ii_row"
-				position = { x=40 y=800 }
-				size = { width = 3100 height = 650 }
-				margin = { top = 12 left = 12 bottom = 12 right = 12 }
 
-				containerWindowType = {
-					name = "armour_year_top"
-					position = { x=0 y=0 }
-					size = { width = 0 height = 0 }
-					orientation = upper_left
-				
-					instantTextBoxType = {
-						name = "armour_year1"
-						position = { x = 105 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1936"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year2"
-						position = { x = 385 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1937"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year3"
-						position = { x = 1505 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1938"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year4"
-						position = { x = 2065 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1940"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year5"
-						position = { x = 2345 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1941"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year6"
-						position = { x = 2625 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1942"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year7"
-						position = { x = 2905 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1943"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-				}
-
-				iconType = {
-					name ="ger_panzer_ii_art_bg"
-					spriteType = "GFX_ger_panzer_ii_art_bg"
-					position = { x=00 y=-40 }
-					allwaystransparent = yes
-				}
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=0 }					
-				}
-			}
-			#Panzer III
-			containerWindowType = {
-				name = "GER_panzer_iii_row"
-				position = { x=40 y=1500 }
-				size = { width = 2825 height = 650 }
-				margin = { top = 12 left = 12 bottom = 12 right = 12 }
-
-				containerWindowType = {
-					name = "armour_year_top"
-					position = { x=0 y=0 }
-					size = { width = 0 height = 100%% }
-					orientation = upper_left
-				
-					instantTextBoxType = {
-						name = "armour_year1"
-						position = { x = 115 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1936"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year2"
-						position = { x = 395 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1937"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year3"
-						position = { x = 955 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1938"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year4"
-						position = { x = 1235 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1940"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year5"
-						position = { x = 1515 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1941"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-										instantTextBoxType = {
-						name = "armour_year6"
-						position = { x = 1795 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1942"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-										instantTextBoxType = {
-						name = "armour_year7"
-						position = { x = 2075 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1943"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-				}
-
-				iconType = {
-					name ="ger_panzer_iii_art_bg"
-					spriteType = "GFX_ger_panzer_iii_art_bg"
-					position = { x=-10 y=-100 }
-					allwaystransparent = yes
-				}
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=0 }					
-				}
-				
-			}
-			#Panzer IV
-			containerWindowType = {
-				name = "GER_panzer_iv_row"
-				position = { x=40 y=2200 }
-				size = { width = 2400 height = 650 }
-				margin = { top = 12 left = 12 bottom = 12 right = 12 }
-
-				containerWindowType = {
-					name = "armour_year_top"
-					position = { x=0 y=0 }
-					size = { width = 0 height = 100%% }
-					orientation = upper_left
-				
-					instantTextBoxType = {
-						name = "armour_year1"
-						position = { x = 115 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1936"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year2"
-						position = { x = 395 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1937"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year3"
-						position = { x = 955 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1938"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year4"
-						position = { x = 1235 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1940"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year5"
-						position = { x = 1515 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1941"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-										instantTextBoxType = {
-						name = "armour_year6"
-						position = { x = 1795 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1942"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year7"
-						position = { x = 2075 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1943"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-				}
-
-				iconType = {
-					name ="ger_panzer_iv_art_bg"
-					spriteType = "GFX_ger_panzer_iv_art_bg"
-					position = { x=0 y=-80 }
-					allwaystransparent = yes
-				}
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=0 }					
-				}
-				
-			}
-			#Panzer V
-			containerWindowType = {
-				name = "GER_panzer_v_row"
-				position = { x=40 y=2900 }
-				size = { width = 2400 height = 650 }
-				margin = { top = 12 left = 12 bottom = 12 right = 12 }
-
-				containerWindowType = {
-					name = "armour_year_top"
-					position = { x=0 y=0 }
-					size = { width = 0 height = 100%% }
-					orientation = upper_left
-				
-					instantTextBoxType = {
-						name = "armour_year1"
-						position = { x = 115 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1936"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year2"
-						position = { x = 395 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1937"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year3"
-						position = { x = 955 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1938"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year4"
-						position = { x = 1235 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1940"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year5"
-						position = { x = 1515 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1941"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-										instantTextBoxType = {
-						name = "armour_year6"
-						position = { x = 1795 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1942"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-					instantTextBoxType = {
-						name = "armour_year7"
-						position = { x = 2075 y = 10 }
-						textureFile = ""
-						font = "hoi_36header"
-						borderSize = {x = 0 y = 4}
-						text = "1943"
-						maxWidth = 80
-						maxHeight = 32
-						format = left
-						Orientation = "UPPER_LEFT"
-					}
-				}
-
-				iconType = {
-					name ="ger_panzer_v_art_bg"
-					spriteType = "GFX_ger_panzer_v_art_bg"
-					position = { x=0 y=-50 }
-					allwaystransparent = yes
-				}
-
-				background = {
-					name = "Background"
-					quadTextureSprite ="GFX_fullborder_tiled"
-					position = { x=0 y=0 }					
-				}
-				
-			}
-			
 			gridboxtype = {
 				name = "german_panzer_i_a_tree"
 				position = { x = 280 y = 190 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
-				format = "UP"
+				format = "UP"		
 			}
 
 			gridboxtype = {
@@ -1461,10 +968,153 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+		}
 
+		#German Panzer II Folder
+		containerWindowType = {
+			name = "german_panzer_ii_folder"
+			position = { x=110 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			#Header
+			containerWindowType = {
+				name = "GER_panzer_ii_title"
+				position = { x=0 y=0 }
+				size = { width = 3200 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				containerWindowType = {
+					name = "armour_year_top"
+					position = { x=20 y=-10 }
+					size = { width = 3100 height = 68 }
+					orientation = upper_left
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_plain_bg"
+					}
+				
+					instantTextBoxType = {
+						name = "armour_year1"
+						position = { x = 138 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1936"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year2"
+						position = { x = 418 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1937"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year3"
+						position = { x = 1538 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1938"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year4"
+						position = { x = 2098 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1940"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year5"
+						position = { x = 2378 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1941"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year6"
+						position = { x = 2658 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1942"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year7"
+						position = { x = 2938 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1943"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+				}
+			}
+			
+			#Content
+			containerWindowType = {
+				name = "GER_panzer_ii_row"
+				position = { x=0 y=0 }
+				size = { width = 3100 height = 650 }
+				margin = { top = 20 left = 0 bottom = -48 right = 0}
+
+				iconType = {
+					name ="ger_panzer_ii_art_bg"
+					spriteType = "GFX_ger_panzer_ii_art_bg"
+					position = { x=32 y=52 }
+					allwaystransparent = yes
+					scale = 0.9
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=20 y=60 }					
+				}
+
+			}
 			gridboxtype = {
 				name = "german_panzer_ii_aa_tree"
-				position = { x = 280 y = 890 }
+				position = { x = 280 y = 190 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1472,7 +1122,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "german_panzer_ii_flamm_tree"
-				position = { x = 280 y = 890 }
+				position = { x = 280 y = 190 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1480,7 +1130,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "german_panzer_ii_marder_ii_tree"
-				position = { x = 280 y = 890 }
+				position = { x = 280 y = 190 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1488,40 +1138,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "german_panzer_ii_wespe_tree"
-				position = { x = 280 y = 890 }
-				size = { width = 1920 height = 1080 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "german_panzer_iii_d_tree"
-				position = { x = 280 y = 1590 }
-				size = { width = 1920 height = 1080 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			
-			gridboxtype = {
-				name = "german_stug_iii_b_tree"
-				position = { x = 280 y = 1590 }
-				size = { width = 1920 height = 1080 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "german_panzer_iii_flamm_tree"
-				position = { x = 280 y = 1590 }
-				size = { width = 1920 height = 1080 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-
-			gridboxtype = {
-				name = "german_stug_iii_33b_tree"
-				position = { x = 280 y = 1590 }
+				position = { x = 280 y = 190 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
@@ -1529,6 +1146,381 @@ guiTypes = {
 
 		}
 
+		#German Panzer III Folder
+		containerWindowType = {
+			name = "german_panzer_iii_folder"
+			position = { x=110 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_iii_title"
+				position = { x=0 y=0 }
+				size = { width = 2950 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				containerWindowType = {
+					name = "armour_year_top"
+					position = { x=20 y=-10 }
+					size = { width = 2850 height = 68 }
+					orientation = upper_left
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_plain_bg"
+					}
+				
+					instantTextBoxType = {
+						name = "armour_year1"
+						position = { x = 138 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1938"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year2"
+						position = { x = 418 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1939"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year3"
+						position = { x = 978 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1940"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year4"
+						position = { x = 1538 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1941"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year5"
+						position = { x = 2098 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1942"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year6"
+						position = { x = 2658 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1943"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+				}
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_iii_row"
+				position = { x=0 y=0 }
+				size = { width = 2850 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				iconType = {
+					name ="ger_panzer_iii_art_bg"
+					spriteType = "GFX_ger_panzer_iii_art_bg"
+					position = { x=32 y=72 }
+					allwaystransparent = yes
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=20 y=60 }					
+				}
+			}
+
+			gridboxtype = {
+				name = "german_panzer_iii_d_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "german_stug_iii_b_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "german_panzer_iii_flamm_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "german_stug_iii_33b_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+		}
+
+		#German Panzer IV Folder
+		containerWindowType = {
+			name = "german_panzer_iv_folder"
+			position = { x=110 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_iv_title"
+				position = { x=0 y=0 }
+				size = { width = 2950 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				containerWindowType = {
+					name = "armour_year_top"
+					position = { x=20 y=-10 }
+					size = { width = 2850 height = 68 }
+					orientation = upper_left
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_plain_bg"
+					}
+				
+					instantTextBoxType = {
+						name = "armour_year1"
+						position = { x = 138 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1936"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year2"
+						position = { x = 418 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1937"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year3"
+						position = { x = 698 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1938"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year4"
+						position = { x = 978 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1939"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year5"
+						position = { x = 1258 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1940"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year6"
+						position = { x = 1538 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1941"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year7"
+						position = { x = 1818 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1942"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year8"
+						position = { x = 2098 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1943"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year9"
+						position = { x = 2378 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1944"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+				}
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_iv_row"
+				position = { x=0 y=0 }
+				size = { width = 2850 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				iconType = {
+					name ="ger_panzer_iv_art_bg"
+					spriteType = "GFX_ger_panzer_iv_art_bg"
+					position = { x=32 y=72 }
+					allwaystransparent = yes
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=20 y=60 }					
+				}
+			}
+
+			gridboxtype = {
+				name = "german_panzer_iv_a_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_iv_hummel_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "german_panzer_iv_jagd_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_iv_sturmpanzer_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_iv_sturmgeschutz_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_iv_brumm_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_iv_nash_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+		}
 		#Soviet Armor Tech Container
 		containerWindowType = {
 			name = "soviet_armor_folder"
@@ -1810,7 +1802,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "artillery_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -2158,7 +2150,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "naval_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -2415,7 +2407,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air_techs_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -2746,7 +2738,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "industry_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -3118,7 +3110,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "land_doctrine_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -3502,7 +3494,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "naval_doctrine_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -3662,7 +3654,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "air_doctrine_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -3695,7 +3687,7 @@ guiTypes = {
 			iconType = {
 				name ="operational_destruction_bg"
 				spriteType = "GFX_operational_destruction_bg"
-				position = { x=1100 y=33 }
+				position = { x=1140 y=33 }
 			}
 	
 #			iconType = {
@@ -3849,7 +3841,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "electronics_folder"
-			position = { x=0 y=47 }
+			position = { x=114 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -4215,7 +4207,7 @@ guiTypes = {
 	
 			buttonType = {
 				name = "infantry_folder_tab"
-				position = { x = 22 y = 0 }
+				position = { x = 140 y = 0 }
 				quadTextureSprite = "GFX_infantry_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -4224,32 +4216,61 @@ guiTypes = {
 			iconType = {
 				name = "highlight_infantry_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=22 y=-5}
+				position = { x=140 y=-5}
 				hide = yes
 				alwaystransparent = yes
 			}
 
 			buttonType = {
 				name = "support_folder_tab"
-				position = { x = 111 y = 0 }
+				position = { x = 229 y = 0 }
 				quadTextureSprite = "GFX_support_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 200 y = 0 }
+				position = { x = 0 y = 0 }
 				quadTextureSprite = "GFX_armour_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
-
+			buttonType = {
+				name = "german_panzer_i_folder_tab"
+				position = { x = 14 y = 114 }
+				quadTextureSprite = "GFX_german_panzer_i_folder_tab"
+				frame = 2
+				clicksound = click_default
+			}
+			buttonType = {
+				name = "german_panzer_ii_folder_tab"
+				position = { x = 48 y = 114 }
+				quadTextureSprite = "GFX_german_panzer_ii_folder_tab"
+				frame = 2
+				clicksound = click_default
+			}
 			# German Armor Tech Tab
 			buttonType = {
-				name = "german_armor_folder_tab"
-				position = { x = 200 y = 0 }
-				quadTextureSprite = "GFX_armour_folder_tab"
-				frame = 1
+				name = "german_panzer_iii_folder_tab"
+				position = { x = 82 y = 114 }
+				quadTextureSprite = "GFX_german_panzer_iii_folder_tab"
+				frame = 2
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "german_panzer_iv_folder_tab"
+				position = { x = 48 y = 368 }
+				quadTextureSprite = "GFX_german_panzer_iv_folder_tab"
+				frame = 2
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "german_panzer_v_folder_tab"
+				position = { x = 82 y = 368 }
+				quadTextureSprite = "GFX_german_panzer_v_folder_tab"
+				frame = 2
 				clicksound = click_default
 			}
 
@@ -4264,7 +4285,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "artillery_folder_tab"
-				position = { x = 289 y = 0 }
+				position = { x = 318 y = 0 }
 				quadTextureSprite = "GFX_artillery_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -4272,7 +4293,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "land_doctrine_folder_tab"
-				position = { x = 378 y = 0 }
+				position = { x = 407 y = 0 }
 				quadTextureSprite = "GFX_land_doctrine_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -4281,14 +4302,14 @@ guiTypes = {
 			iconType = {
 				name = "highlight_land_doctrine_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=378 y=0}
+				position = { x=407 y=0}
 				hide = yes
 				alwaystransparent = yes
 			}
 
 			buttonType = {
 				name = "naval_folder_tab"
-				position = { x = 497 y = 0 }
+				position = { x = 527 y = 0 }
 				quadTextureSprite = "GFX_naval_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -4296,14 +4317,14 @@ guiTypes = {
 
 			buttonType = {
 				name = "naval_doctrine_folder_tab"
-				position = { x = 586 y = 0 }
+				position = { x = 616 y = 0 }
 				quadTextureSprite = "GFX_naval_doctrine_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 			buttonType = {
 				name = "air_techs_folder_tab"
-				position = { x = 705 y = 0 }
+				position = { x = 736 y = 0 }
 				quadTextureSprite = "GFX_air_techs_folder_tab"
 				frame = 1
 				clicksound = click_default
@@ -4311,14 +4332,14 @@ guiTypes = {
 
 			buttonType = {
 				name = "air_doctrine_folder_tab"
-				position = { x = 794 y = 0 }
+				position = { x = 825 y = 0 }
 				quadTextureSprite = "GFX_air_doctrine_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
 
 			buttonType = {
-				position = { x = 913 y = 0 }
+				position = { x = 945 y = 0 }
 				name = "electronics_folder_tab"
 				quadTextureSprite = "GFX_techtree_engineering_tab"
 				frame = 1
@@ -4328,13 +4349,13 @@ guiTypes = {
 			iconType = {
 				name = "highlight_engineering_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=913 y=0}
+				position = { x=945 y=0}
 				hide = yes
 				alwaystransparent = yes
 			}			
 				
 			buttonType = {
-				position = { x = 1002 y = 0 }
+				position = { x = 1034 y = 0 }
 				name = "industry_folder_tab"
 				quadTextureSprite = "GFX_industry_folder_tab"
 				frame = 1
@@ -4345,7 +4366,7 @@ guiTypes = {
 			iconType = {
 				name = "highlight_industry_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
-				position = { x=1002 y=0}
+				position = { x=1034 y=0}
 				hide = yes
 				alwaystransparent = yes
 			}
@@ -5975,9 +5996,61 @@ guiTypes = {
 
 	# Modular Tech Enhancements #######################################################################
 
-	###German Armor Tech
+	###German Panzer I
 	containerWindowType = {
-		name = "techtree_german_armor_folder_item"
+		name = "techtree_german_panzer_i_folder_item"
+		position = { x=-55 y=0 }
+		size = { width = 183 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=74 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 6 y = -1 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 156
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=115 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 129 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+		
+	}
+
+	###German Panzer II
+	containerWindowType = {
+		name = "techtree_german_panzer_ii_folder_item"
 		position = { x=-55 y=0 }
 		size = { width = 183 height = 84 }
 		clipping = no
@@ -6026,5 +6099,109 @@ guiTypes = {
 		}
 		
 	}	
+
+	###German Panzer III
+	containerWindowType = {
+		name = "techtree_german_panzer_iii_folder_item"
+		position = { x=-55 y=0 }
+		size = { width = 183 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=74 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 6 y = -1 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 156
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=115 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 129 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+		
+	}
+
+	###German Panzer IV
+	containerWindowType = {
+		name = "techtree_german_panzer_iv_folder_item"
+		position = { x=-55 y=0 }
+		size = { width = 183 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=74 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 6 y = -1 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 156
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=115 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 129 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+		
+	}
 
 }

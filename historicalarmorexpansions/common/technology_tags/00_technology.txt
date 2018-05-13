@@ -103,7 +103,43 @@ technology_folders = {
 	}
 
 	# German Armor
-	german_armor_folder = {
+	german_panzer_i_folder = {
+		available = {
+			AND = {
+				original_tag = GER
+				has_global_flag = german_content_pack
+			}
+		}
+	}
+
+	german_panzer_ii_folder = {
+		available = {
+			AND = {
+				original_tag = GER
+				has_global_flag = german_content_pack 			
+			}
+		}
+	}
+
+	german_panzer_iii_folder = {
+		available = {
+			AND = {
+				original_tag = GER
+				has_global_flag = german_content_pack 			
+			}
+		}
+	}
+
+	german_panzer_iv_folder = {
+		available = {
+			AND = {
+				original_tag = GER
+				has_global_flag = german_content_pack 			
+			}
+		}
+	}
+
+	german_panzer_v_folder = {
 		available = {
 			AND = {
 				original_tag = GER
