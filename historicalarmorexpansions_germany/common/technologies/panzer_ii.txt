@@ -6,12 +6,12 @@ technologies = {
             panzer_ii_equipment_aa
         }
 
-        research_cost = 1
+        research_cost = 0.25
 
         start_year = 1936
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = -15 y = 4 }
         }
 
@@ -41,7 +41,7 @@ technologies = {
         start_year = 1937
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = -11 y = 4 }
         }
 
@@ -71,7 +71,7 @@ technologies = {
         start_year = 1937
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = -7 y = 4 }
         }
 
@@ -101,7 +101,7 @@ technologies = {
         start_year = 1937
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = -3 y = 4 }
         }
 
@@ -126,12 +126,12 @@ technologies = {
             panzer_ii_equipment_b
         }
 
-        research_cost = 0.25
+        research_cost = 1
 
         start_year = 1937
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 1 y = 4 }
         }
 
@@ -156,12 +156,12 @@ technologies = {
             panzer_ii_equipment_c
         }
 
-        research_cost = 0.25
+        research_cost = 1
 
         start_year = 1938
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 5 y = 4 }
         }
 
@@ -186,12 +186,12 @@ technologies = {
             panzer_ii_equipment_d
         }
 
-        research_cost = 0.25
+        research_cost = 2
 
         start_year = 1938
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 9 y = 4 }
         }
 
@@ -225,7 +225,7 @@ technologies = {
         start_year = 1940
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 13 y = 2 }
         }
 
@@ -245,12 +245,12 @@ technologies = {
             panzer_ii_equipment_f
         }
 
-        research_cost = 1
+        research_cost = 0.5
 
         start_year = 1941
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 17 y = 4 }
         }
 
@@ -281,12 +281,12 @@ technologies = {
             panzer_ii_equipment_l
         }
 
-        research_cost = 1
+        research_cost = 2
 
         start_year = 1942
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 21 y = 4 }
         }
 
@@ -311,7 +311,7 @@ technologies = {
         start_year = 1942
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 21 y = 2 }
         }
 
@@ -336,7 +336,7 @@ technologies = {
         start_year = 1943
 
         folder = {
-            name = german_armor_folder
+            name = german_panzer_ii_folder
             position = { x = 25 y = 2 }
         }
 
