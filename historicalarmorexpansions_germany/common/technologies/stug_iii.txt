@@ -10,8 +10,8 @@ technologies = {
         start_year = 1940
 
         folder = {
-            name = german_armor_folder
-            position = { x = 1 y = 4 }
+            name = german_panzer_iii_folder
+            position = { x = -3 y = 5 }
         }
 
         path = {
@@ -39,8 +39,8 @@ technologies = {
         start_year = 1941
 
         folder = {
-            name = german_armor_folder
-            position = { x =5 y = 4 }
+            name = german_panzer_iii_folder
+            position = { x =5 y = 5 }
         }
 
         path = {
@@ -68,8 +68,8 @@ technologies = {
         start_year = 1941
 
         folder = {
-            name = german_armor_folder
-            position = { x = 9 y = 4 }
+            name = german_panzer_iii_folder
+            position = { x = 9 y = 5 }
         }
 
         path = {
@@ -101,8 +101,8 @@ technologies = {
         start_year = 1942
 
         folder = {
-            name = german_armor_folder
-            position = { x = 13 y = 4 }
+            name = german_panzer_iii_folder
+            position = { x = 13 y = 5 }
         }
 
         path = {
@@ -130,8 +130,8 @@ technologies = {
         start_year = 1942
 
         folder = {
-            name = german_armor_folder
-            position = { x = 17 y = 4 }
+            name = german_panzer_iii_folder
+            position = { x = 17 y = 5 }
         }
 
         path = {
@@ -159,8 +159,8 @@ technologies = {
         start_year = 1942
 
         folder = {
-            name = german_armor_folder
-            position = { x = 17 y = 2 }
+            name = german_panzer_iii_folder
+            position = { x = 17 y = -1 }
         }
 
         ai_will_do = {
@@ -183,8 +183,8 @@ technologies = {
         start_year = 1943
 
         folder = {
-            name = german_armor_folder
-            position = { x = 21 y = 4 }
+            name = german_panzer_iii_folder
+            position = { x = 21 y = 5 }
         }
 
         ai_will_do = {

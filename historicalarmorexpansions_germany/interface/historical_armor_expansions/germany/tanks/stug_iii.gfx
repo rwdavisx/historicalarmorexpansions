@@ -1,0 +1,31 @@
+SpriteTypes = {
+
+	SpriteType = {
+		name = "GFX_GER_german_stug_iii_b_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_medium_td.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_stug_iii_d_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_medium_td.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_stug_iii_e_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_medium_td.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_stug_iii_f_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_medium_td.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_stug_iii_f8_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_medium_td.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_stug_iii_g_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_medium_td.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_stug_iii_33b_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_medium_art.dds"
+	}
+}
