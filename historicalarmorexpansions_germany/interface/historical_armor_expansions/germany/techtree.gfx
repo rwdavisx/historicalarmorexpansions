@@ -1,11 +1,6 @@
 spriteTypes = {
 
 	spriteType = {
-		name = "GFX_german_armor_folder_tab"
-		textureFile = "gfx//interface//techtree/techtree_tank_tab.dds"
-	}
-
-	spriteType = {
 		name = "GFX_ger_panzer_i_art_bg"
 		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-i-art.dds"
 	}
