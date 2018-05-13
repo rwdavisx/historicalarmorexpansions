@@ -11,8 +11,8 @@ technologies = {
         start_year = 1933
 
         folder = {
-            name = german_armor_folder
-            position = { x = -12 y = 6 }
+            name = german_prototypes_folder
+            position = { x = 0 y = 0 }
         }
 
         ai_will_do = {
