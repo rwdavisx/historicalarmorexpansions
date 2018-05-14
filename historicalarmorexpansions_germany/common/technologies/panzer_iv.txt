@@ -10,7 +10,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = -15 y = 1 }
+            position = { x = -15 y = -1 }
         }
 
         path = {
@@ -38,7 +38,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = -11 y = 1 }
+            position = { x = -11 y = -1 }
         }
 
         path = {
@@ -66,7 +66,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = -7 y = 1 }
+            position = { x = -7 y = -1 }
         }
 
         path = {
@@ -94,7 +94,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = -3 y = 1 }
+            position = { x = -3 y = -1 }
         }
 
         path = {
@@ -122,7 +122,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 1 y = 1 }
+            position = { x = 1 y = -1 }
         }
 
         path = {
@@ -150,7 +150,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 5 y = 1 }
+            position = { x = 5 y = -1 }
         }
 
         path = {
@@ -182,7 +182,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 9 y = 1 }
+            position = { x = 9 y = -1 }
         }
 
         path = {
@@ -191,7 +191,6 @@ technologies = {
         }
 
         sub_technologies = {
-            german_panzer_iv_sturmpanzer
             german_panzer_iv_brumm
             german_panzer_iv_nash
         }
@@ -216,7 +215,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 13 y = 1 }
+            position = { x = 13 y = -1 }
         }
 
         path = {
@@ -226,7 +225,7 @@ technologies = {
 
         sub_technologies = {
             german_panzer_iv_hummel
-            german_panzer_iv_sturmgeschutz
+            german_panzer_iv_stug
         }
 
         ai_will_do = {
@@ -249,7 +248,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 17 y = 1 }
+            position = { x = 17 y = -1 }
         }
 
         ai_will_do = {
@@ -272,7 +271,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 9 y = 3 }
+            position = { x = 9 y = 1 }
         }
 
         ai_will_do = {
@@ -295,7 +294,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 9 y = 4 }
+            position = { x = 9 y = 3 }
         }
 
         ai_will_do = {
@@ -318,7 +317,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 13 y = 3 }
+            position = { x = 13 y = 1 }
         }
 
         ai_will_do = {
@@ -341,53 +340,30 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
+            position = { x = 13 y = 3 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_iv_stug = {
+        enable_equipments = {
+            panzer_iv_equipment_stug
+        }
+
+        research_cost = 1
+
+        start_year = 1943
+
+        folder = {
+            name = german_panzer_iv_folder
             position = { x = 13 y = 5 }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-
-        categories = {
-            armor
-            cat_medium_armor
-        }
-    }
-    german_panzer_iv_sturmpanzer = {
-        enable_equipments = {
-            panzer_iv_equipment_sturmpanzer
-        }
-
-        research_cost = 1
-
-        start_year = 1943
-
-        folder = {
-            name = german_panzer_iv_folder
-            position = { x = 13 y = -1 }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-
-        categories = {
-            armor
-            cat_medium_armor
-        }
-    }
-    german_panzer_iv_sturmgeschutz = {
-        enable_equipments = {
-            panzer_iv_equipment_sturmpanzer
-        }
-
-        research_cost = 1
-
-        start_year = 1943
-
-        folder = {
-            name = german_panzer_iv_folder
-            position = { x = 13 y = 7 }
         }
 
         ai_will_do = {

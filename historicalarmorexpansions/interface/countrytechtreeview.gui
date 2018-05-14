@@ -39,12 +39,6 @@ guiTypes = {
 			spriteType = "GFX_tank_helper_icon_down"
 		}
 
-		iconType = {
-			name = "armor_icon_up"
-			position = { x = 12 y = 635 }
-			spriteType = "GFX_tank_helper_icon_up"
-		}
-
 		containerWindowType = {
 			name = "infantry_folder"
 			position = { x=114 y=47 }
@@ -805,7 +799,6 @@ guiTypes = {
 				format = "UP"
 			}
 		}
-
 		#German Panzer I Folder
 		containerWindowType = {
 			name = "german_panzer_i_folder"
@@ -969,7 +962,6 @@ guiTypes = {
 				format = "UP"
 			}
 		}
-
 		#German Panzer II Folder
 		containerWindowType = {
 			name = "german_panzer_ii_folder"
@@ -1145,7 +1137,6 @@ guiTypes = {
 			}
 
 		}
-
 		#German Panzer III Folder
 		containerWindowType = {
 			name = "german_panzer_iii_folder"
@@ -1306,7 +1297,6 @@ guiTypes = {
 			}
 
 		}
-
 		#German Panzer IV Folder
 		containerWindowType = {
 			name = "german_panzer_iv_folder"
@@ -1447,6 +1437,18 @@ guiTypes = {
 						format = left
 						Orientation = "UPPER_LEFT"
 					}
+					instantTextBoxType = {
+						name = "armour_year10"
+						position = { x = 2658 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1945"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
 				}
 			}
 
@@ -1500,7 +1502,7 @@ guiTypes = {
 				format = "UP"
 			}
 			gridboxtype = {
-				name = "german_panzer_iv_sturmgeschutz_tree"
+				name = "german_panzer_iv_stug_tree"
 				position = { x = 280 y = 190 }
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
@@ -1519,6 +1521,168 @@ guiTypes = {
 				size = { width = 1920 height = 1080 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_flak_iv_mobel_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+		}
+		#German Panzer V Folder
+		containerWindowType = {
+			name = "german_panzer_v_folder"
+			position = { x=110 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_v_title"
+				position = { x=0 y=0 }
+				size = { width = 2950 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				containerWindowType = {
+					name = "armour_year_top"
+					position = { x=20 y=-10 }
+					size = { width = 2850 height = 68 }
+					orientation = upper_left
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_plain_bg"
+					}
+				}
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_v_row"
+				position = { x=0 y=0 }
+				size = { width = 2850 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				iconType = {
+					name ="ger_panzer_v_art_bg"
+					spriteType = "GFX_ger_panzer_v_art_bg"
+					position = { x=32 y=72 }
+					allwaystransparent = yes
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=20 y=60 }					
+				}
+			}
+		}
+		#German Panzer VI Folder
+		containerWindowType = {
+			name = "german_panzer_vi_folder"
+			position = { x=110 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_vi_title"
+				position = { x=0 y=0 }
+				size = { width = 2950 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				containerWindowType = {
+					name = "armour_year_top"
+					position = { x=20 y=-10 }
+					size = { width = 2850 height = 68 }
+					orientation = upper_left
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_plain_bg"
+					}
+				}
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_vi_row"
+				position = { x=0 y=0 }
+				size = { width = 2850 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				iconType = {
+					name ="ger_panzer_vi_art_bg"
+					spriteType = "GFX_ger_panzer_vi_art_bg"
+					position = { x=32 y=72 }
+					allwaystransparent = yes
+				}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=20 y=60 }					
+				}
+			}
+		}
+		#German Other Folder
+		containerWindowType = {
+			name = "german_misc_folder"
+			position = { x=110 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_misc_title"
+				position = { x=0 y=0 }
+				size = { width = 2950 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				containerWindowType = {
+					name = "armour_year_top"
+					position = { x=20 y=-10 }
+					size = { width = 2850 height = 68 }
+					orientation = upper_left
+
+					background = {
+						name = "Background"
+						quadTextureSprite ="GFX_tiled_plain_bg"
+					}
+				}
+			}
+
+			containerWindowType = {
+				name = "GER_panzer_misc_row"
+				position = { x=0 y=0 }
+				size = { width = 2850 height = 650 }
+				margin = { top = 0 left = 0 bottom = 0 right = 0}
+
+				background = {
+					name = "Background"
+					quadTextureSprite ="GFX_fullborder_tiled"
+					position = { x=20 y=60 }					
+				}
 			}
 		}
 		#Soviet Armor Tech Container
@@ -4260,7 +4424,7 @@ guiTypes = {
 
 			buttonType = {
 				name = "german_panzer_iv_folder_tab"
-				position = { x = 48 y = 368 }
+				position = { x = 14 y = 368 }
 				quadTextureSprite = "GFX_german_panzer_iv_folder_tab"
 				frame = 2
 				clicksound = click_default
@@ -4268,8 +4432,24 @@ guiTypes = {
 
 			buttonType = {
 				name = "german_panzer_v_folder_tab"
-				position = { x = 82 y = 368 }
+				position = { x = 48 y = 368 }
 				quadTextureSprite = "GFX_german_panzer_v_folder_tab"
+				frame = 2
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "german_panzer_vi_folder_tab"
+				position = { x = 82 y = 368 }
+				quadTextureSprite = "GFX_german_panzer_vi_folder_tab"
+				frame = 2
+				clicksound = click_default
+			}
+
+			buttonType = {
+				name = "german_misc_folder_tab"
+				position = { x = 82 y = 622 }
+				quadTextureSprite = "GFX_german_panzer_misc_folder_tab"
 				frame = 2
 				clicksound = click_default
 			}

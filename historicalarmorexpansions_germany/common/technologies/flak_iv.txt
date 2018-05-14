@@ -10,7 +10,12 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 0 y = 0 }
+            position = { x = 17 y = 1 }
+        }
+
+        path = {
+            leads_to_tech = german_flak_iv_wirbel
+            research_cost_coeff = 1
         }
 
         ai_will_do = {
@@ -33,7 +38,12 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 0 y = 0 }
+            position = { x = 17 y = 3 }
+        }
+
+        path = {
+            leads_to_tech = german_flak_iv_ost
+            research_cost_coeff = 1
         }
 
         ai_will_do = {
@@ -56,7 +66,12 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 0 y = 0 }
+            position = { x = 17 y = 5 }
+        }
+
+        path = {
+            leads_to_tech = german_flak_iv_kugel
+            research_cost_coeff = 1
         }
 
         ai_will_do = {
@@ -79,7 +94,7 @@ technologies = {
 
         folder = {
             name = german_panzer_iv_folder
-            position = { x = 0 y = 0 }
+            position = { x = 21 y = 5 }
         }
 
         ai_will_do = {

@@ -197,7 +197,7 @@ equipments = {
 	}
     panzer_iv_equipment_brumm = {
         year = 1942
-		archetype = panzer_i_equipment
+		archetype = panzer_iv_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -221,7 +221,7 @@ equipments = {
 	}
     panzer_iv_equipment_nash = {
         year = 1943
-		archetype = panzer_i_equipment
+		archetype = panzer_iv_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -245,7 +245,7 @@ equipments = {
 	}
     panzer_iv_equipment_hummel = {
         year = 1943
-		archetype = panzer_i_equipment
+		archetype = panzer_iv_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -268,7 +268,7 @@ equipments = {
 	}
     panzer_iv_equipment_jagd = {
         year = 1943
-		archetype = panzer_i_equipment
+		archetype = panzer_iv_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -293,7 +293,7 @@ equipments = {
 	}
     panzer_iv_equipment_sturmpanzer = {
         year = 1943
-		archetype = panzer_i_equipment
+		archetype = panzer_iv_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
@@ -315,9 +315,9 @@ equipments = {
 		hard_attack = 3.6
 		ap_attack = 9.5	
 	}
-    panzer_iv_equipment_sturmgeschutz = {
+    panzer_iv_equipment_stug = {
         year = 1943
-		archetype = panzer_i_equipment
+		archetype = panzer_iv_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes

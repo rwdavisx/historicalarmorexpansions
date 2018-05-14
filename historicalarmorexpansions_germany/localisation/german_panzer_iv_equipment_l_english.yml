@@ -1,1 +1,75 @@
 ﻿l_english:
+ panzer_iv:0 "Panzerkampfwagen IV"
+ panzer_iv_equipment:0 "Panzerkampfwagen IV"
+ panzer_iv_equipment_short:0 "Panzer IV"
+ panzer_iv_equipment_desc:0 "Panzer IV Tank Materials"
+
+ GER_panzer_iv_equipment_a:0 "Panzerkampfwagen IV Ausf. A"
+ GER_panzer_iv_equipment_a_short:0 "Panzer IV A"
+ GER_panzer_iv_equipment_a_desc:0 ""
+ panzer_iv_equipment_a:0 "Panzer IV Ausf. A"
+
+ GER_panzer_iv_equipment_b:0 "Panzerkampfwagen IV Ausf. B"
+ GER_panzer_iv_equipment_b_short:0 "Panzer IV B"
+ GER_panzer_iv_equipment_b_desc:0 ""
+ panzer_iv_equipment_b:0 "Panzer IV Ausf. B"
+
+ GER_panzer_iv_equipment_c:0 "Panzerkampfwagen IV Ausf. C"
+ GER_panzer_iv_equipment_c_short:0 "Panzer IV C"
+ GER_panzer_iv_equipment_c_desc:0 ""
+ panzer_iv_equipment_c:0 "Panzer IV Ausf. C"
+
+ GER_panzer_iv_equipment_d:0 "Panzerkampfwagen IV Ausf. D"
+ GER_panzer_iv_equipment_d_short:0 "Panzer IV D"
+ GER_panzer_iv_equipment_d_desc:0 ""
+ panzer_iv_equipment_d:0 "Panzer IV Ausf. D"
+
+ GER_panzer_iv_equipment_e:0 "Panzerkampfwagen IV Ausf. E"
+ GER_panzer_iv_equipment_e_short:0 "Panzer IV E"
+ GER_panzer_iv_equipment_e_desc:0 ""
+ panzer_iv_equipment_e:0 "Panzer IV Ausf. E"
+
+ GER_panzer_iv_equipment_f:0 "Panzerkampfwagen IV Ausf. F"
+ GER_panzer_iv_equipment_f_short:0 "Panzer IV F"
+ GER_panzer_iv_equipment_f_desc:0 ""
+ panzer_iv_equipment_f:0 "Panzer IV Ausf. F"
+
+ GER_panzer_iv_equipment_g:0 "Panzerkampfwagen IV Ausf. G"
+ GER_panzer_iv_equipment_g_short:0 "Panzer IV G"
+ GER_panzer_iv_equipment_g_desc:0 ""
+ panzer_iv_equipment_g:0 "Panzer IV Ausf. G"
+
+ GER_panzer_iv_equipment_h:0 "Panzerkampfwagen IV Ausf. H"
+ GER_panzer_iv_equipment_h_short:0 "Panzer IV H"
+ GER_panzer_iv_equipment_h_desc:0 ""
+ panzer_iv_equipment_h:0 "Panzer IV Ausf. H"
+
+ GER_panzer_iv_equipment_j:0 "Panzerkampfwagen IV Ausf. J"
+ GER_panzer_iv_equipment_j_short:0 "Panzer IV J"
+ GER_panzer_iv_equipment_j_desc:0 ""
+ panzer_iv_equipment_j:0 "Panzer IV Ausf. J"
+
+ GER_panzer_iv_equipment_brumm:0 "Sturmpanzer IV Brummbär"
+ GER_panzer_iv_equipment_brumm_short:0 "Brummbär"
+ GER_panzer_iv_equipment_brumm_desc:0 ""
+ panzer_iv_equipment_brumm:0 "Brummbär"
+
+ GER_panzer_iv_equipment_nash:0 "Panzerjäger IV Nashorn"
+ GER_panzer_iv_equipment_nash_short:0 "Nashorn"
+ GER_panzer_iv_equipment_nash_desc:0 ""
+ panzer_iv_equipment_nash:0 "Nashorn"
+
+ GER_panzer_iv_equipment_stug:0 "Sturmgeschütz IV"
+ GER_panzer_iv_equipment_stug_short:0 "StuG IV"
+ GER_panzer_iv_equipment_stug_desc:0 ""
+ panzer_iv_equipment_stug:0 "StuG IV"
+
+ GER_panzer_iv_equipment_hummel:0 "Geschützwagen IV (Sf) Hummel"
+ GER_panzer_iv_equipment_hummel_short:0 "Hummel"
+ GER_panzer_iv_equipment_hummel_desc:0 ""
+ panzer_iv_equipment_hummel:0 "Hummel"
+
+ GER_panzer_iv_equipment_jagd:0 "Jagdpanzer IV"
+ GER_panzer_iv_equipment_jagd_short:0 "Jagdpanzer IV"
+ GER_panzer_iv_equipment_jagd_desc:0 ""
+ panzer_iv_equipment_jagd:0 "Jagdpanzer IV"
