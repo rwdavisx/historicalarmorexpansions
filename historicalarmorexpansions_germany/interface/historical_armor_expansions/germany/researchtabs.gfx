@@ -24,4 +24,14 @@ spriteTypes = {
         textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_v_tab.dds" 
         noOfFrames = 2 
     }
+    spriteType = { 
+        name = "GFX_german_panzer_vi_folder_tab"							
+        textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_vi_tab.dds" 
+        noOfFrames = 2 
+    }
+    spriteType = { 
+        name = "GFX_german_panzer_misc_folder_tab"							
+        textureFile = "gfx/interface/historical_armor_expansions/germany/tabs/german_panzer_misc_tab.dds" 
+        noOfFrames = 2 
+    }
 }

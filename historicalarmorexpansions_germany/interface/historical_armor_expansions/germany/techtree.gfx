@@ -24,4 +24,8 @@ spriteTypes = {
 		name = "GFX_ger_panzer_v_art_bg"
 		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-v-art.dds"
 	}
+	spriteType = {
+		name = "GFX_ger_panzer_vi_art_bg"
+		textureFile = "gfx/interface/historical_armor_expansions/germany/research_tab/panzer-vi-art.dds"
+	}
 }
