@@ -11,7 +11,7 @@ technologies = {
         start_year = 1933
 
         folder = {
-            name = german_prototypes_folder
+            name = german_misc_folder
             position = { x = 0 y = 0 }
         }
 
