@@ -1,1 +1,25 @@
 ﻿l_english:
+ panzer_v:0 "Panzerkampfwagen V Panther"
+ panzer_v_equipment:0 "Panzerkampfwagen V Panther"
+ panzer_v_equipment_short:0 "Panther"
+ panzer_v_equipment_desc:0 "Panther Tank Materials"
+
+ GER_panzer_v_equipment_d:0 "Panzerkampfwagen V Panther Ausf D"
+ GER_panzer_v_equipment_d_short:0 "Panther D"
+ GER_panzer_v_equipment_d_desc:0 ""
+ panzer_v_equipment_d:0 "Panther D"
+
+ GER_panzer_v_equipment_a:0 "Panzerkampfwagen V Panther Ausf A"
+ GER_panzer_v_equipment_a_short:0 "Panther A"
+ GER_panzer_v_equipment_a_desc:0 ""
+ panzer_v_equipment_a:0 "Panther A"
+
+ GER_panzer_v_equipment_g:0 "Panzerkampfwagen V Panther Ausf G"
+ GER_panzer_v_equipment_g_short:0 "Panther G"
+ GER_panzer_v_equipment_g_desc:0 ""
+ panzer_v_equipment_g:0 "Panther G"
+
+ GER_panzer_v_equipment_jagd:0 "Jagdpanther"
+ GER_panzer_v_equipment_jagd_short:0 "Jagdpanther"
+ GER_panzer_v_equipment_jagd_desc:0 ""
+ panzer_v_equipment_jagd:0 "Jagdpanther"

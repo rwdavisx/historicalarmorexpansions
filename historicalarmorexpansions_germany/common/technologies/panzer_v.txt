@@ -1,0 +1,113 @@
+technologies = {
+
+    german_panzer_v_d = {
+        
+        enable_equipments = {
+            panzer_v_equipment_d
+        }
+
+        research_cost = 0.5
+
+        start_year = 1943
+
+        folder = {
+            name = german_panzer_v_folder
+            position = { x = -15 y = 0 }
+        }
+
+        path = {
+            leads_to_tech = german_panzer_v_a
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_v_a = {
+        
+        enable_equipments = {
+            panzer_v_equipment_a
+        }
+
+        research_cost = 0.5
+
+        start_year = 1943
+
+        folder = {
+            name = german_panzer_v_folder
+            position = { x = -11 y = 0 }
+        }
+
+        path = {
+            leads_to_tech = german_panzer_v_g
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_v_g = {
+        
+        enable_equipments = {
+            panzer_v_equipment_g
+        }
+
+        research_cost = 0.5
+
+        start_year = 1944
+
+        folder = {
+            name = german_panzer_v_folder
+            position = { x = -7 y = 0 }
+        }
+
+        sub_technologies = {
+            german_panzer_v_jagd
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+    german_panzer_v_jagd = {
+        
+        enable_equipments = {
+            panzer_v_equipment_jagd
+        }
+
+        research_cost = 0.5
+
+        start_year = 1944
+
+        folder = {
+            name = german_panzer_v_folder
+            position = { x = -7 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_medium_armor
+        }
+    }
+}

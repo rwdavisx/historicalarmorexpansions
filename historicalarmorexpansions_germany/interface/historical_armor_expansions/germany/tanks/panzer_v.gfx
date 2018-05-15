@@ -1,0 +1,19 @@
+SpriteTypes = {
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_v_d_medium"
+		texturefile = "gfx/interface/technologies/ger_adv_main_tank.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_v_a_medium"
+		texturefile = "gfx/interface/technologies/ger_adv_main_tank.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_v_g_medium"
+		texturefile = "gfx/interface/technologies/ger_adv_main_tank.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_v_jagd_medium"
+		texturefile = "gfx/interface/technologies/ger_advanced_medium_td.dds"
+	}
+}
