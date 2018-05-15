@@ -1,0 +1,25 @@
+﻿l_english:
+ flak_iv:0 "Flakpanzer IV"
+ flak_iv_equipment:0 "Flakpanzer IV"
+ flak_iv_equipment_short:0 "Flakpanzer IV"
+ flak_iv_equipment_desc:0 "Flakpanzer IV Tank Materials"
+
+ GER_flak_iv_equipment_mobel:0 "Möbelwagen"
+ GER_flak_iv_equipment_mobel_short:0 "Möbelwagen"
+ GER_flak_iv_equipment_mobel_desc:0 ""
+ flak_iv_equipment_mobel:0 "Möbelwagen"
+
+ GER_flak_iv_equipment_wirbel:0 "Wirbelwind"
+ GER_flak_iv_equipment_wirbel_short:0 "Wirbelwind"
+ GER_flak_iv_equipment_wirbel_desc:0 ""
+ flak_iv_equipment_wirbel:0 "Wirbelwind"
+
+ GER_flak_iv_equipment_ost:0 "Ostwind"
+ GER_flak_iv_equipment_ost_short:0 "Ostwind"
+ GER_flak_iv_equipment_ost_desc:0 ""
+ flak_iv_equipment_ost:0 "Ostwind"
+
+ GER_flak_iv_equipment_kugel:0 "Kugelblitz"
+ GER_flak_iv_equipment_kugel_short:0 "Kugelblitz"
+ GER_flak_iv_equipment_kugel_desc:0 ""
+ flak_iv_equipment_kugel:0 "Kugelblitz"

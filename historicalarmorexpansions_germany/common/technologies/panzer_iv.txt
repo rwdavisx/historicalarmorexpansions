@@ -226,6 +226,7 @@ technologies = {
         sub_technologies = {
             german_panzer_iv_hummel
             german_panzer_iv_stug
+            german_flak_iv_mobel
         }
 
         ai_will_do = {
