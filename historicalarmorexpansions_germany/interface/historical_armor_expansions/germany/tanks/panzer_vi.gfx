@@ -1,0 +1,27 @@
+SpriteTypes = {
+
+	SpriteType = {
+		name = "GFX_GER_german_panzer_vi_tiger_h1_medium"
+		texturefile = "gfx/interface/technologies/ger_imp_heavy_tank.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_vi_tiger_e_medium"
+		texturefile = "gfx/interface/technologies/ger_imp_heavy_tank.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_vi_sturmtiger_medium"
+		texturefile = "gfx/interface/technologies/ger_improved_medium_art.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_vi_elefant_medium"
+		texturefile = "gfx/interface/technologies/ger_improved_heavy_td.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_vi_konigstiger_medium"
+		texturefile = "gfx/interface/technologies/ger_adv_heavy_tank.dds"
+	}
+    SpriteType = {
+		name = "GFX_GER_german_panzer_vi_jagdtiger_medium"
+		texturefile = "gfx/interface/technologies/ger_advanced_heavy_td.dds"
+	}
+}

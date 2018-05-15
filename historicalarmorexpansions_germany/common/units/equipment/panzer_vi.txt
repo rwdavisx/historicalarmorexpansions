@@ -1,0 +1,151 @@
+equipments = {
+
+	panzer_vi_equipment = {
+
+		year = 1942
+
+		is_archetype = yes
+		is_buildable = no
+		is_convertable = yes
+		picture = archetype_medium_tank_equipment
+		type = armor
+		group_by = archetype	
+		interface_category = interface_category_armor
+	
+		defense = 5
+		breakthrough = 36
+		hardness = 0.8
+		air_attack = 0
+
+		lend_lease_cost = 10
+		build_cost_ic = 9
+		resources = {
+			oil = 1
+			steel = 3
+			chromium = 0
+		}
+	}
+
+	panzer_vi_equipment_tiger_h1 = {
+		year = 1942
+
+		archetype = panzer_vi_equipment
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.04
+		reliability = 0.72
+
+		#Defensive Abilities
+		armor_value = 13.5
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
+	}
+    panzer_vi_equipment_tiger_e = {
+		year = 1942
+
+		archetype = panzer_vi_equipment
+		parent = panzer_vi_equipment_tiger_h1
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.28
+		reliability = 0.76
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
+	}
+    panzer_vi_equipment_sturmtiger = {
+		year = 1943
+
+		archetype = panzer_vi_equipment
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.28
+		reliability = 0.76
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
+	}
+    panzer_vi_equipment_elefant = {
+		year = 1943
+
+		archetype = panzer_vi_equipment
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.28
+		reliability = 0.76
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
+	}
+    panzer_vi_equipment_konigstiger = {
+		year = 1943
+
+		archetype = panzer_vi_equipment
+        parent = panzer_vi_equipment_tiger_e
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.28
+		reliability = 0.76
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
+	}
+    panzer_vi_equipment_jagdtiger = {
+		year = 1944
+
+		archetype = panzer_vi_equipment
+		priority = 90
+		visual_level = 0
+		is_convertable = yes
+
+		#Misc Abilities
+		maximum_speed = 11.28
+		reliability = 0.76
+
+		#Defensive Abilities
+		armor_value = 14.25
+
+		#Offensive Abilities
+		soft_attack = 13.16
+		hard_attack = 4.8
+		ap_attack = 27
+	}
+}

@@ -1561,6 +1561,31 @@ guiTypes = {
 						name = "Background"
 						quadTextureSprite ="GFX_tiled_plain_bg"
 					}
+
+					instantTextBoxType = {
+						name = "armour_year1"
+						position = { x = 138 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1943"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year2"
+						position = { x = 698 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1944"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
 				}
 			}
 
@@ -1582,6 +1607,20 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x=20 y=60 }					
 				}
+			}
+			gridboxtype = {
+				name = "german_panzer_v_d_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_v_jagd_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
 			}
 		}
 		#German Panzer VI Folder
@@ -1615,6 +1654,42 @@ guiTypes = {
 						name = "Background"
 						quadTextureSprite ="GFX_tiled_plain_bg"
 					}
+					instantTextBoxType = {
+						name = "armour_year1"
+						position = { x = 138 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1942"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year2"
+						position = { x = 698 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1943"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
+					instantTextBoxType = {
+						name = "armour_year3"
+						position = { x = 978 y = 10 }
+						textureFile = ""
+						font = "hoi_36header"
+						borderSize = {x = 0 y = 4}
+						text = "1944"
+						maxWidth = 80
+						maxHeight = 32
+						format = left
+						Orientation = "UPPER_LEFT"
+					}
 				}
 			}
 
@@ -1636,6 +1711,35 @@ guiTypes = {
 					quadTextureSprite ="GFX_fullborder_tiled"
 					position = { x=20 y=60 }					
 				}
+			}
+
+			gridboxtype = {
+				name = "german_panzer_vi_tiger_h1_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_vi_sturmtiger_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_vi_elefant_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "german_panzer_vi_jagdtiger_tree"
+				position = { x = 280 y = 190 }
+				size = { width = 1920 height = 1080 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
 			}
 		}
 		#German Other Folder
@@ -6383,5 +6487,106 @@ guiTypes = {
 		}
 		
 	}
+	###German Panzer V
+	containerWindowType = {
+		name = "techtree_german_panzer_v_folder_item"
+		position = { x=-55 y=0 }
+		size = { width = 183 height = 84 }
+		clipping = no
 
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=74 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 6 y = -1 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 156
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=115 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 129 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+		
+	}
+	###German Panzer V
+	containerWindowType = {
+		name = "techtree_german_panzer_vi_folder_item"
+		position = { x=-55 y=0 }
+		size = { width = 183 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=74 y=50 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 6 y = -1 }
+			textureFile = ""
+			font = "hoi_20bs"
+			borderSize = {x = 4 y = 4}
+			text = "Happy-Go-Lucky-Tank"
+			maxWidth = 156
+			maxHeight = 20
+			fixedsize = yes
+			format = left
+		}
+		
+		iconType = {
+			name = "bonus_icon"
+			position = { x=115 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 129 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+		
+	}
 }

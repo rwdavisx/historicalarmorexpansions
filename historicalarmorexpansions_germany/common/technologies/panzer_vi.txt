@@ -1,0 +1,165 @@
+technologies = {
+    german_panzer_vi_tiger_h1 = {
+        
+        enable_equipments = {
+            panzer_vi_equipment_tiger_h1
+        }
+
+        research_cost = 0.5
+
+        start_year = 1942
+
+        folder = {
+            name = german_panzer_vi_folder
+            position = { x = -15 y = 0 }
+        }
+
+        path = {
+            leads_to_tech = german_panzer_vi_tiger_e
+            research_cost_coeff = 1
+        }
+
+        sub_technologies = {
+            german_panzer_vi_sturmtiger
+            german_panzer_vi_elefant
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_heavy_armor
+        }
+    }
+    german_panzer_vi_tiger_e = {
+        
+        enable_equipments = {
+            panzer_vi_equipment_tiger_e
+        }
+
+        research_cost = 0.5
+
+        start_year = 1942
+
+        folder = {
+            name = german_panzer_vi_folder
+            position = { x = -11 y = 0 }
+        }
+
+        path = {
+            leads_to_tech = german_panzer_vi_konigstiger
+            research_cost_coeff = 1
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_heavy_armor
+        }
+    }
+    german_panzer_vi_sturmtiger = {
+        
+        enable_equipments = {
+           panzer_vi_equipment_sturmtiger
+        }
+
+        research_cost = 0.5
+
+        start_year = 1943
+
+        folder = {
+            name = german_panzer_vi_folder
+            position = { x = -7 y = 4 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_heavy_armor
+        }
+    }
+    german_panzer_vi_elefant = {
+        
+        enable_equipments = {
+            panzer_vi_equipment_elefant
+        }
+
+        research_cost = 0.5
+
+        start_year = 1943
+
+        folder = {
+            name = german_panzer_vi_folder
+            position = { x = -7 y = 2 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_heavy_armor
+        }
+    }
+    german_panzer_vi_konigstiger = {
+        
+        enable_equipments = {
+            panzer_vi_equipment_konigstiger
+        }
+
+        research_cost = 0.5
+
+        start_year = 1943
+
+        folder = {
+            name = german_panzer_vi_folder
+            position = { x = -7 y = 0 }
+        }
+
+        sub_technologies = {
+            german_panzer_vi_jagdtiger
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_heavy_armor
+        }
+    }
+    german_panzer_vi_jagdtiger = {
+        
+        enable_equipments = {
+            panzer_vi_equipment_jagdtiger
+        }
+
+        research_cost = 0.5
+
+        start_year = 1944
+
+        folder = {
+            name = german_panzer_vi_folder
+            position = { x = -3 y = 2 }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+
+        categories = {
+            armor
+            cat_heavy_armor
+        }
+    }
+}

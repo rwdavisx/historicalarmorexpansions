@@ -1,0 +1,35 @@
+﻿l_english:
+ panzer_v:0 "Panzerkampfwagen VI Tiger"
+ panzer_vi_equipment:0 "Panzerkampfwagen VI Tiger"
+ panzer_vi_equipment_short:0 "Tiger"
+ panzer_vi_equipment_desc:0 "Tiger Tank Materials"
+
+ GER_panzer_vi_equipment_tiger_h1:0 "Panzerkampfwagen VI Tiger H-1"
+ GER_panzer_vi_equipment_tiger_h1_short:0 "Tiger H-1"
+ GER_panzer_vi_equipment_tiger_h1_desc:0 ""
+ panzer_vi_equipment_tiger_h1:0 "Tiger H-1"
+
+ GER_panzer_vi_equipment_tiger_e:0 "Panzerkampfwagen VI Tiger E"
+ GER_panzer_vi_equipment_tiger_e_short:0 "Tiger E"
+ GER_panzer_vi_equipment_tiger_e_desc:0 ""
+ panzer_vi_equipment_tiger_e:0 "Tiger E"
+
+ GER_panzer_vi_equipment_konigstiger:0 "Panzerkampfwagen V Königstiger"
+ GER_panzer_vi_equipment_konigstiger_short:0 "Königstiger"
+ GER_panzer_vi_equipment_konigstiger_desc:0 ""
+ panzer_vi_equipment_konigstiger:0 "Königstiger"
+ 
+ GER_panzer_vi_equipment_sturmtiger:0 "Sturmpanzer VI Sturmtiger"
+ GER_panzer_vi_equipment_sturmtiger_short:0 "Sturmtiger"
+ GER_panzer_vi_equipment_sturmtiger_desc:0 ""
+ panzer_vi_equipment_sturmtiger:0 "Sturmtiger"
+
+ GER_panzer_vi_equipment_elefant:0 "Panzerjäger Tiger (P) Ferdinand"
+ GER_panzer_vi_equipment_elefant_short:0 "Elefant"
+ GER_panzer_vi_equipment_elefant_desc:0 ""
+ panzer_vi_equipment_elefant:0 "Elefant"
+
+ GER_panzer_vi_equipment_jagdtiger:0 "Panzerjäger Tiger Ausf. B"
+ GER_panzer_vi_equipment_jagdtiger_short:0 "Jagdtiger"
+ GER_panzer_vi_equipment_jagdtiger_desc:0 ""
+ panzer_vi_equipment_jagdtiger:0 "Jagdtiger"
