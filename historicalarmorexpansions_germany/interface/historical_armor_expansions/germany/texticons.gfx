@@ -17,4 +17,22 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2		
 	}
+		spriteType = {
+		name = "GFX_unit_panzer_iv_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+		spriteType = {
+		name = "GFX_unit_panzer_v_icon_small"
+		texturefile = "gfx/texticons/unit_medium_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
+		spriteType = {
+		name = "GFX_unit_panzer_vi_icon_small"
+		texturefile = "gfx/texticons/unit_heavy_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2		
+	}
 }
