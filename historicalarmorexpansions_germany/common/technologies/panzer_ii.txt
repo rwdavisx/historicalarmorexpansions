@@ -226,7 +226,7 @@ technologies = {
 
         folder = {
             name = german_panzer_ii_folder
-            position = { x = 13 y = 2 }
+            position = { x = 13 y = 0 }
         }
 
         ai_will_do = {
@@ -312,7 +312,7 @@ technologies = {
 
         folder = {
             name = german_panzer_ii_folder
-            position = { x = 21 y = 2 }
+            position = { x = 21 y = 0 }
         }
 
         ai_will_do = {
@@ -337,7 +337,7 @@ technologies = {
 
         folder = {
             name = german_panzer_ii_folder
-            position = { x = 25 y = 2 }
+            position = { x = 25 y = 0 }
         }
 
         ai_will_do = {
