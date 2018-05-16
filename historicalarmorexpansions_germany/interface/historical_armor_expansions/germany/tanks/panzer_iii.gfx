@@ -44,4 +44,8 @@ SpriteTypes = {
 		name = "GFX_GER_german_panzer_iii_flak_medium"
 		texturefile = "gfx/interface/technologies/ger_basic_main_tank.dds"
 	}
+	SpriteType = {
+		name = "GFX_GER_german_panzer_iii_flamm_medium"
+		texturefile = "gfx/interface/technologies/ger_basic_main_tank.dds"
+	}
 }

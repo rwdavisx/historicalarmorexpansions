@@ -36,4 +36,24 @@ SpriteTypes = {
 		name = "GFX_GER_german_panzer_iv_j_medium"
 		texturefile = "gfx/interface/technologies/ger_imp_main_tank.dds"
 	}
+	  SpriteType = {
+		name = "GFX_GER_german_panzer_iv_brumm_medium"
+		texturefile = "gfx/interface/technologies/ger_imp_main_tank.dds"
+	}
+	  SpriteType = {
+		name = "GFX_GER_german_panzer_iv_hummel_medium"
+		texturefile = "gfx/interface/technologies/ger_imp_main_tank.dds"
+	}
+	  SpriteType = {
+		name = "GFX_GER_german_panzer_iv_nash_medium"
+		texturefile = "gfx/interface/technologies/ger_imp_main_tank.dds"
+	}
+	  SpriteType = {
+		name = "GFX_GER_german_panzer_iv_jagd_medium"
+		texturefile = "gfx/interface/technologies/ger_imp_main_tank.dds"
+	}
+	  SpriteType = {
+		name = "GFX_GER_german_panzer_iv_stug_medium"
+		texturefile = "gfx/interface/technologies/ger_imp_main_tank.dds"
+	}
 }
