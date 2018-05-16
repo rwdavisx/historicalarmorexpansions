@@ -8,6 +8,10 @@ technologies = {
 
         start_year = 1944
 
+        dependencies = {
+            german_panzer_iv_h = 1
+        }
+
         folder = {
             name = german_panzer_iv_folder
             position = { x = 17 y = 1 }

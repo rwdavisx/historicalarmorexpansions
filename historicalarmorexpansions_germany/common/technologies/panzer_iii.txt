@@ -135,10 +135,6 @@ technologies = {
             research_cost_coeff = 1
         }
 
-		sub_technologies = {      
-			german_stug_iii_b
-		}
-
         ai_will_do = {
             factor = 1
         }
@@ -197,10 +193,6 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        sub_technologies = {      
-			german_stug_iii_f8
-		}
-
         ai_will_do = {
             factor = 1
         }
@@ -228,11 +220,6 @@ technologies = {
         path = {
             leads_to_tech = german_panzer_iii_n
             research_cost_coeff = 1
-        }
-        
-        sub_technologies = {
-            german_stug_iii_g
-            german_panzer_iii_flamm
         }
 
         ai_will_do = {
@@ -277,6 +264,10 @@ technologies = {
         research_cost = 1
 
         start_year = 1942
+
+        dependencies = {
+            german_panzer_iii_m = 1
+        }
 
         folder = {
             name = german_panzer_iii_folder

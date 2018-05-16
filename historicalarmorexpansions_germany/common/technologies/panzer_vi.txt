@@ -19,11 +19,6 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        sub_technologies = {
-            german_panzer_vi_sturmtiger
-            german_panzer_vi_elefant
-        }
-
         ai_will_do = {
             factor = 1
         }
@@ -72,6 +67,10 @@ technologies = {
 
         start_year = 1943
 
+        dependencies = {
+            german_panzer_vi_tiger_h1 = 1
+        }
+
         folder = {
             name = german_panzer_vi_folder
             position = { x = -7 y = 4 }
@@ -95,6 +94,10 @@ technologies = {
         research_cost = 0.5
 
         start_year = 1943
+
+        dependencies = {
+            german_panzer_vi_tiger_h1 = 1
+        }
 
         folder = {
             name = german_panzer_vi_folder
@@ -125,10 +128,6 @@ technologies = {
             position = { x = -7 y = 0 }
         }
 
-        sub_technologies = {
-            german_panzer_vi_jagdtiger
-        }
-
         ai_will_do = {
             factor = 1
         }
@@ -147,6 +146,10 @@ technologies = {
         research_cost = 0.5
 
         start_year = 1944
+
+        dependencies = {
+            german_panzer_vi_konigstiger = 1
+        }
 
         folder = {
             name = german_panzer_vi_folder

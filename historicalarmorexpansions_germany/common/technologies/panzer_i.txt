@@ -20,10 +20,6 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        sub_technologies = {
-            german_panzer_i_flak
-        }
-
         ai_will_do = {
             factor = 1
         }
@@ -52,11 +48,6 @@ technologies = {
         path = {
             leads_to_tech = german_panzer_i_c
             research_cost_coeff = 1
-        }
-
-        sub_technologies = {
-            german_panzer_i_bison
-            german_panzer_i_jager  
         }
 
         ai_will_do = {
@@ -109,6 +100,10 @@ technologies = {
 
         start_year = 1939
 
+        dependencies = {
+            german_panzer_i_b = 1
+        }
+        
         folder = {
             name = german_panzer_i_folder
             position = { x = -7 y = 0 }
@@ -131,6 +126,10 @@ technologies = {
         }
 
         research_cost = 1
+
+        dependencies = {
+            german_panzer_i_b = 1
+        }
 
         start_year = 1940
 
@@ -157,6 +156,10 @@ technologies = {
         research_cost = 1
 
         start_year = 1941
+
+        dependencies = {
+            german_panzer_i_a = 1
+        }
 
         folder = {
             name = german_panzer_i_folder

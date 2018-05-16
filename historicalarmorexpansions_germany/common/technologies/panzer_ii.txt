@@ -195,10 +195,6 @@ technologies = {
             position = { x = 9 y = 4 }
         }
 
-        sub_technologies = {
-            german_panzer_ii_flamm
-        }
-
         path = {
             leads_to_tech = german_panzer_ii_f
             research_cost_coeff = 1
@@ -223,6 +219,10 @@ technologies = {
         research_cost = 0.25
 
         start_year = 1940
+
+        dependencies = {
+            german_panzer_ii_d = 1
+        }
 
         folder = {
             name = german_panzer_ii_folder
@@ -257,12 +257,6 @@ technologies = {
         path = {
             leads_to_tech = german_panzer_ii_l
             research_cost_coeff = 1
-        }
-
-        sub_technologies = {
-            german_panzer_ii_marder_ii
-            german_panzer_ii_wespe
-
         }
 
         ai_will_do = {
@@ -308,6 +302,10 @@ technologies = {
 
         research_cost = 1
 
+        dependencies = {
+            german_panzer_ii_f = 1
+        }
+
         start_year = 1942
 
         folder = {
@@ -334,6 +332,10 @@ technologies = {
         research_cost = 1
 
         start_year = 1943
+
+        dependencies = {
+            german_panzer_ii_f = 1
+        }
 
         folder = {
             name = german_panzer_ii_folder

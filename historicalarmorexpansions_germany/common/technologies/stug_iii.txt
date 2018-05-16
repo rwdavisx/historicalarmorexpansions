@@ -9,6 +9,10 @@ technologies = {
 
         start_year = 1940
 
+        dependencies = {
+            german_panzer_iii_h = 1
+        }
+
         folder = {
             name = german_panzer_iii_folder
             position = { x = -3 y = 5 }
@@ -77,10 +81,6 @@ technologies = {
             research_cost_coeff = 1
         }
 
-        sub_technologies = {
-            german_stug_iii_33b
-        }
-
         ai_will_do = {
             factor = 1
         }
@@ -129,6 +129,10 @@ technologies = {
 
         start_year = 1942
 
+        dependencies = {
+            german_panzer_iii_l = 1
+        }
+
         folder = {
             name = german_panzer_iii_folder
             position = { x = 17 y = 5 }
@@ -158,6 +162,10 @@ technologies = {
 
         start_year = 1942
 
+        dependencies = {
+            german_stug_iii_e = 1
+        }
+
         folder = {
             name = german_panzer_iii_folder
             position = { x = 17 y = -1 }
@@ -181,6 +189,10 @@ technologies = {
         research_cost = 1
 
         start_year = 1943
+
+        dependencies = {
+            german_panzer_iii_m = 1
+        }
 
         folder = {
             name = german_panzer_iii_folder
