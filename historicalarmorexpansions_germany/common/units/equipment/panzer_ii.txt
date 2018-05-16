@@ -1,9 +1,7 @@
 equipments = {
-
 	panzer_ii_equipment = {
 
 		year = 1936
-
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
@@ -53,7 +51,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_aa
 		priority = 90
-		visual_level = 0
+		visual_level = 1
 		is_convertable = yes
 
 		#Misc Abilities
@@ -75,7 +73,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_bb
 		priority = 90
-		visual_level = 0
+		visual_level = 2
 		is_convertable = yes
 
 		#Misc Abilities
@@ -97,7 +95,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_cc
 		priority = 90
-		visual_level = 0
+		visual_level = 3
 		is_convertable = yes
 
 		#Misc Abilities
@@ -119,7 +117,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_a
 		priority = 90
-		visual_level = 0
+		visual_level = 4
 		is_convertable = yes
 
 		#Misc Abilities
@@ -141,7 +139,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_b
 		priority = 90
-		visual_level = 0
+		visual_level = 5
 		is_convertable = yes
 
 		#Misc Abilities
@@ -163,7 +161,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_c
 		priority = 90
-		visual_level = 0
+		visual_level = 6
 		is_convertable = yes
 
 		#Misc Abilities
@@ -198,7 +196,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_d
 		priority = 90
-		visual_level = 0
+		visual_level = 7
 		is_convertable = yes
 	}
 
@@ -234,7 +232,7 @@ equipments = {
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_f
 		priority = 90
-		visual_level = 0
+		visual_level = 8
 		is_convertable = yes
 	}
 }
