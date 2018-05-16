@@ -50,7 +50,7 @@ equipments = {
 		year = 1943
 
 		archetype = flak_iv_equipment
-		parent = panzer_v_equipment_mobel
+		parent = flak_iv_equipment_mobel
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
