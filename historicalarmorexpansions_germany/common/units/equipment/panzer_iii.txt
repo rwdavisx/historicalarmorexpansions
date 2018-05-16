@@ -1,86 +1,118 @@
 equipments = {
     panzer_iii_equipment = {
 
-		year = 1941
+		year = 1938
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
-		picture = archetype_panzer_iii_equipment
+		picture = archetype_medium_tank_equipment
 		type = armor
-		group_by = archetype
-		
+		group_by = archetype	
 		interface_category = interface_category_armor
 		
-		#Misc Abilities
-		maximum_speed = 5
-		reliability = 0.8
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
 
-		#Defensive Abilities
-		defense = 6
+		defense = 5
 		breakthrough = 36
-		hardness = 0.95
-		armor_value = 70
-
-		#Offensive Abilities
-		soft_attack = 15
-		hard_attack = 12
-		ap_attack = 35
+		hardness = 0.9
 		air_attack = 0
-
-		#Space taken in convoy
-		lend_lease_cost = 14
-		
-		build_cost_ic = 25 
+		lend_lease_cost = 12
 		resources = {
 			oil = 1
-			steel = 1
-			chromium = 0
+			tungsten = 2
+			steel = 2
 		}
 	}
 
     panzer_iii_equipment_d = {
-		year = 1941
-
+		year = 1938
 		archetype = panzer_iii_equipment
-		priority = 90
+		priority = 50
 		visual_level = 0
 		is_convertable = yes
+		build_cost_ic = 10
+
+		#Modifiers
+		maximum_speed = 7.5
+		reliability = 0.8
+		armor_value = 15
+		soft_attack = 18
+		hard_attack = 9
+		ap_attack = 30
 	}
     panzer_iii_equipment_e = {
-		year = 1941
-
+		year = 1939
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_d
 		priority = 90
-		visual_level = 0
+		visual_level = 1
 		is_convertable = yes
+		build_cost_ic = 11
+
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.8
+		armor_value = 30
+		soft_attack = 18
+		hard_attack = 9
+		ap_attack = 50
 	}
     panzer_iii_equipment_f = {
-		year = 1941
-
+		year = 1940
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_e
 		priority = 90
-		visual_level = 0
+		visual_level = 2
 		is_convertable = yes
+		build_cost_ic = 11
+
+		#Modifiers
+		maximum_speed = 8.5
+		reliability = 0.8
+		armor_value = 30
+		soft_attack = 18
+		hard_attack = 9
+		ap_attack = 50
 	}
     panzer_iii_equipment_g = {
-		year = 1941
-
+		year = 1940
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_f
 		priority = 90
-		visual_level = 0
+		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 11
+
+		#Modifiers
+		maximum_speed = 8.5
+		reliability = 0.8
+		armor_value = 45
+		soft_attack = 18
+		hard_attack = 9
+		ap_attack = 50
 	}
     panzer_iii_equipment_h = {
-		year = 1941
+		year = 1940
 
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_g
 		priority = 90
-		visual_level = 0
+		visual_level = 4
 		is_convertable = yes
+		build_cost_ic = 12
+
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.8
+		armor_value = 60
+		soft_attack = 18
+		hard_attack = 9
+		ap_attack = 50
 	}
     panzer_iii_equipment_j = {
 		year = 1941
@@ -88,8 +120,17 @@ equipments = {
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_h
 		priority = 90
-		visual_level = 0
+		visual_level = 5
 		is_convertable = yes
+		build_cost_ic = 12
+
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.8
+		armor_value = 15
+		soft_attack = 15
+		hard_attack = 14
+		ap_attack = 61
 	}
     panzer_iii_equipment_l = {
 		year = 1941
@@ -97,34 +138,73 @@ equipments = {
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_j
 		priority = 90
-		visual_level = 0
+		visual_level = 6
 		is_convertable = yes
+		build_cost_ic = 12
+
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.8
+		armor_value = 70
+		soft_attack = 15
+		hard_attack = 14
+		ap_attack = 61
+
+		can_convert_from = {
+			panzer_iii_equipment_j
+		}
 	}
     panzer_iii_equipment_m = {
-		year = 1941
+		year = 1942
 
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_l
 		priority = 90
-		visual_level = 0
+		visual_level = 7
 		is_convertable = yes
+		build_cost_ic = 13
+
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.8
+		armor_value = 75
+		soft_attack = 15
+		hard_attack = 14
+		ap_attack = 61
 	}
     panzer_iii_equipment_n = {
-		year = 1941
+		year = 1942
 
 		archetype = panzer_iii_equipment
 		parent = panzer_iii_equipment_m
 		priority = 90
-		visual_level = 0
+		visual_level = 8
 		is_convertable = yes
+		build_cost_ic = 13
+
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.9
+		armor_value = 75
+		soft_attack = 18
+		hard_attack = 17
+		ap_attack = 81
 	}
     panzer_iii_equipment_flamm = {
-		year = 1941
+		year = 1942
 
 		archetype = panzer_iii_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.8
+		armor_value = 15
+		soft_attack = 19
+		hard_attack = 14
+		ap_attack = 61
 
 		can_convert_from = {
 			panzer_iii_equipment_m
