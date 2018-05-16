@@ -8,4 +8,9 @@ spriteTypes = {
 		name = "GFX_tank_helper_icon_down"
 		texturefile = "gfx/interface/historical_armor_expansions/core/tank-helper-icon-down.dds"
 	}
+	spriteType = {
+		name = "GFX_generic_armor_tab"
+		texturefile = "gfx/interface/historical_armor_expansions/core/generic_armor_tab.dds"
+		noOfFrames = 2 
+	}
 }

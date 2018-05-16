@@ -524,7 +524,7 @@ guiTypes = {
 		#Generic Tree
 		containerWindowType = {
 			name = "armour_folder"
-			position = { x=0 y=47 }
+			position = { x=110 y=47 }
 			size = { width = 100%% height = 100%% }
 			margin = { top = 13 left = 13 bottom = 24 right = 25}
 			drag_scroll = { left middle }
@@ -4498,9 +4498,9 @@ guiTypes = {
 			}
 			buttonType = {
 				name = "armour_folder_tab"
-				position = { x = 0 y = 0 }
-				quadTextureSprite = "GFX_armour_folder_tab"
-				frame = 1
+				position = { x = 82 y = 114 }
+				quadTextureSprite = "GFX_generic_armor_tab"
+				frame = 2
 				clicksound = click_default
 			}
 			buttonType = {
