@@ -1,6 +1,5 @@
 equipments = {
 	panzer_ii_equipment = {
-
 		year = 1936
 		is_archetype = yes
 		is_buildable = no
@@ -9,171 +8,148 @@ equipments = {
 		type = armor
 		group_by = archetype	
 		interface_category = interface_category_armor
-	
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+
 		defense = 5
 		breakthrough = 36
 		hardness = 0.8
 		air_attack = 0
-
 		lend_lease_cost = 10
-		build_cost_ic = 9
 		resources = {
 			oil = 1
 			steel = 3
-			chromium = 0
 		}
 	}
 
 	panzer_ii_equipment_aa = {
 		year = 1936
-
 		archetype = panzer_ii_equipment
-		priority = 90
+		priority = 10
 		visual_level = 0
 		is_convertable = yes
+		build_cost_ic = 8
 
-		#Misc Abilities
-		maximum_speed = 11.04
-		reliability = 0.72
-
-		#Defensive Abilities
-		armor_value = 13.5
-
-		#Offensive Abilities
-		soft_attack = 13.16
-		hard_attack = 4.8
-		ap_attack = 27
+		#Modifiers
+		maximum_speed = 8
+		reliability = 0.75
+		armor_value = 5
+		soft_attack = 12
+		hard_attack = 5
+		ap_attack = 10
 	}
 
 	panzer_ii_equipment_bb = {
 		year = 1937
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_aa
-		priority = 90
+		priority = 10
 		visual_level = 1
 		is_convertable = yes
+		build_cost_ic = 8
 
-		#Misc Abilities
-		maximum_speed = 11.28
-		reliability = 0.76
-
-		#Defensive Abilities
-		armor_value = 14.25
-
-		#Offensive Abilities
-		soft_attack = 13.16
-		hard_attack = 4.8
-		ap_attack = 27
+		#Modifiers
+		maximum_speed = 10
+		reliability = 0.75
+		armor_value = 5
+		soft_attack = 12
+		hard_attack = 5
+		ap_attack = 10
 	}
 
 	panzer_ii_equipment_cc = {
 		year = 1937
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_bb
-		priority = 90
+		priority = 10
 		visual_level = 2
 		is_convertable = yes
+		build_cost_ic = 8
 
-		#Misc Abilities
-		maximum_speed = 11.76
-		reliability = 0.84
-
-		#Defensive Abilities
-		armor_value = 14.25
-
-		#Offensive Abilities
-		soft_attack = 14
-		hard_attack = 6
-		ap_attack = 30
+		#Modifiers
+		maximum_speed = 10
+		reliability = 0.75
+		armor_value = 10
+		soft_attack = 12
+		hard_attack = 5
+		ap_attack = 10
+		
 	}
 
 	panzer_ii_equipment_a = {
 		year = 1937
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_cc
-		priority = 90
+		priority = 10
 		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 8
 
-		#Misc Abilities
-		maximum_speed = 12.24
-		reliability = 0.84
-
-		#Defensive Abilities
-		armor_value = 14.25
-
-		#Offensive Abilities
-		soft_attack = 14
-		hard_attack = 6
-		ap_attack = 30
+		#Modifiers
+		maximum_speed = 12
+		reliability = 0.8
+		armor_value = 10
+		soft_attack = 12
+		hard_attack = 5
+		ap_attack = 10
 	}
 
 	panzer_ii_equipment_b = {
 		year = 1937
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_a
-		priority = 90
-		visual_level = 4
+		priority = 10
+		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 8
 
-		#Misc Abilities
-		maximum_speed = 12.48
-		reliability = 0.96
-
-		#Defensive Abilities
+		#Modifiers
+		maximum_speed = 12
+		reliability = 0.8
 		armor_value = 15
-
-		#Offensive Abilities
-		soft_attack = 14
-		hard_attack = 6
-		ap_attack = 30
+		soft_attack = 12
+		hard_attack = 5
+		ap_attack = 20
 	}
 
 	panzer_ii_equipment_c = {
 		year = 1938
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_b
-		priority = 90
-		visual_level = 5
+		priority = 10
+		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 8
 
-		#Misc Abilities
-		maximum_speed = 12.48
-		reliability = 1.04
-
-		#Defensive Abilities
+		#Modifiers
+		maximum_speed = 12
+		reliability = 0.8
 		armor_value = 15
-
-		#Offensive Abilities
 		soft_attack = 14
-		hard_attack = 6
-		ap_attack = 30
+		hard_attack = 5
+		ap_attack = 20
 	}
 
 	panzer_ii_equipment_d = {
 		year = 1938
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_c
-		priority = 90
-		visual_level = 6
+		priority = 10
+		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 9
 
-		#Misc Abilities
-		maximum_speed = 12.96
-		reliability = 1.04
-
-		#Defensive Abilities
-		armor_value = 16.5
-
-		#Offensive Abilities
+		#Modifiers
+		maximum_speed = 14
+		reliability = 0.8
+		armor_value = 30
 		soft_attack = 14
-		hard_attack = 6
+		hard_attack = 5
 		ap_attack = 30
 	}
 
@@ -192,12 +168,20 @@ equipments = {
 
 	panzer_ii_equipment_f = {
 		year = 1941
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_d
-		priority = 90
-		visual_level = 7
+		priority = 10
+		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 9
+
+		#Modifiers
+		maximum_speed = 14
+		reliability = 0.8
+		armor_value = 30
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 40
 	}
 
 	panzer_ii_equipment_marder_ii = {
@@ -228,11 +212,21 @@ equipments = {
 
 	panzer_ii_equipment_l = {
 		year = 1943
-
 		archetype = panzer_ii_equipment
 		parent = panzer_ii_equipment_f
-		priority = 90
-		visual_level = 8
+		priority = 10
+		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 10
+
+		#Modifiers
+		maximum_speed = 16
+		reliability = 0.8
+		armor_value = 80
+		soft_attack = 14
+		hard_attack = 6
+		ap_attack = 40
 	}
 }
+
+## Add Ausf. G and Ausf. H

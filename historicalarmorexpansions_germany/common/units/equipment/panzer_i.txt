@@ -4,7 +4,6 @@ equipments = {
     # Panzer I Archetype
 	panzer_i_equipment = {
 		year = 1934
-
 		is_archetype = yes
 		is_buildable = no
 		is_convertable = yes
@@ -12,86 +11,79 @@ equipments = {
 		type = armor
 		group_by = archetype	
 		interface_category = interface_category_armor
-	
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_gun_upgrade
+		}
+
 		defense = 4
-		breakthrough = 22
+		breakthrough = 26
 		hardness = 0.8
 		air_attack = 0
-
 		lend_lease_cost = 10
-		build_cost_ic = 8
 		resources = {
 			oil = 1
-			steel = 1
-			chromium = 0
+			steel = 2
 		}
-		
 	}
 
 	# Panzer I Ausf. A
 	panzer_i_equipment_a = {
+		year = 1934
 		archetype = panzer_i_equipment
 		priority = 90
 		visual_level = 0
 		is_convertable = yes
+		build_cost_ic = 7
 
-		#Misc Abilities
-		maximum_speed = 9.6
-		reliability = 0.64
-
-		#Defensive Abilities
-		armor_value = 9.5
-
-		#Offensive Abilities
-		soft_attack = 9.7
-		hard_attack = 3.6
-		ap_attack = 9.5	
+		#Modifiers
+		maximum_speed = 9
+		reliability = 0.8
+		armor_value = 10
+		soft_attack = 8
+		hard_attack = 3
+		ap_attack = 10
 	}
 
     # Panzer I Ausf. B
 	panzer_i_equipment_b = {
 		year = 1936
-
 		archetype = panzer_i_equipment
 		parent = panzer_i_equipment_a
 		priority = 90
 		visual_level = 1
 		is_convertable = yes
+		build_cost_ic = 7
 
-		#Misc Abilities
+		#Modifiers
 		maximum_speed = 10
 		reliability = 0.8
-
-		#Defensive Abilities
-		armor_value = 9.5
-
-		#Offensive Abilities
-		soft_attack = 9.7
-		hard_attack = 3.6
-		ap_attack = 9.5
+		armor_value = 15
+		soft_attack = 10
+		hard_attack = 4
+		ap_attack = 10
 	}
 
 	# Panzer I Ausf. C
     panzer_i_equipment_c = {
 		year = 1939
-
 		archetype = panzer_i_equipment
 		parent = panzer_i_equipment_b
 		priority = 90
 		visual_level = 2
 		is_convertable = yes
+		build_cost_ic = 8
 
-		#Misc Abilities
-		maximum_speed = 12.24
-		reliability = 0.92
-
-		#Defensive Abilities
-		armor_value = 15
-
-		#Offensive Abilities
-		soft_attack = 13.58
-		hard_attack = 5.4
-		ap_attack = 28.5
+		#Modifiers
+		maximum_speed = 10
+		reliability = 0.8
+		armor_value = 30
+		soft_attack = 10
+		hard_attack = 4
+		ap_attack = 20
 	}
 
 	# sIG 33 Bison
@@ -223,33 +215,19 @@ equipments = {
 	# Panzer I Ausf. F
     panzer_i_equipment_f = {
 		year = 1942
-
 		archetype = panzer_i_equipment
 		parent = panzer_i_equipment_c
 		priority = 90
-		visual_level = 0
+		visual_level = 3
 		is_convertable = yes
+		build_cost_ic = 10
 
-		#Misc Abilities
-		maximum_speed = 12
-		reliability = 0.9
-
-		#Defensive Abilities
-		defense = 7
-		breakthrough = 32
-		hardness = 0.8
-		armor_value = 20
-
-		#Offensive Abilities
-		soft_attack = 14
-		hard_attack = 6
-		ap_attack = 20
-		
-		build_cost_ic = 8
-		resources = {
-			oil = 1
-			steel = 1
-			chromium = 1
-		}
+		#Modifiers
+		maximum_speed = 10
+		reliability = 0.8
+		armor_value = 80
+		soft_attack = 16
+		hard_attack = 4
+		ap_attack = 10
 	}
 }

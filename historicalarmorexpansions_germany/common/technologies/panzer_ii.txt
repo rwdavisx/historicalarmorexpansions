@@ -6,7 +6,7 @@ technologies = {
             panzer_ii_equipment_aa
         }
 
-        research_cost = 0.25
+        research_cost = 0.5
 
         start_year = 1936
 
@@ -36,7 +36,7 @@ technologies = {
             panzer_ii_equipment_bb
         }
 
-        research_cost = 0.25
+        research_cost = 0.5
 
         start_year = 1937
 
@@ -66,7 +66,7 @@ technologies = {
             panzer_ii_equipment_cc
         }
 
-        research_cost = 0.25
+        research_cost = 0.5
 
         start_year = 1937
 
@@ -96,7 +96,7 @@ technologies = {
             panzer_ii_equipment_a
         }
 
-        research_cost = 0.25
+        research_cost = 0.5
 
         start_year = 1937
 
@@ -108,6 +108,10 @@ technologies = {
         path = {
             leads_to_tech = german_panzer_ii_b
             research_cost_coeff = 1
+        }
+
+        dependencies = {
+            german_panzer_i_b = 1
         }
 
         ai_will_do = {
@@ -186,7 +190,7 @@ technologies = {
             panzer_ii_equipment_d
         }
 
-        research_cost = 2
+        research_cost = 0.5
 
         start_year = 1938
 
@@ -216,7 +220,7 @@ technologies = {
             panzer_ii_equipment_flamm
         }
 
-        research_cost = 0.25
+        research_cost = 0.5
 
         start_year = 1940
 
@@ -275,7 +279,7 @@ technologies = {
             panzer_ii_equipment_l
         }
 
-        research_cost = 2
+        research_cost = 0.5
 
         start_year = 1942
 
@@ -300,7 +304,7 @@ technologies = {
             panzer_ii_equipment_marder_ii
         }
 
-        research_cost = 1
+        research_cost = 0.5
 
         dependencies = {
             german_panzer_ii_f = 1
@@ -329,7 +333,7 @@ technologies = {
             panzer_ii_equipment_wespe
         }
 
-        research_cost = 1
+        research_cost = 0.5
 
         start_year = 1943
 

@@ -96,7 +96,7 @@ technologies = {
             panzer_i_equipment_bison
         }
 
-        research_cost = 1
+        research_cost = 0.5
 
         start_year = 1939
 
@@ -125,7 +125,7 @@ technologies = {
             panzer_i_equipment_jager
         }
 
-        research_cost = 1
+        research_cost = 0.5
 
         dependencies = {
             german_panzer_i_b = 1
@@ -153,7 +153,7 @@ technologies = {
             panzer_i_equipment_flak
         }
 
-        research_cost = 1
+        research_cost = 0.5
 
         start_year = 1941
 
